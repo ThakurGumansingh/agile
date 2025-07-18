@@ -4,7 +4,7 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "Challenges posed by novel and"
+    "answer": "Challenges posed by novel and exploratory projects that involve high uncertainty, rapid change, and collaborative problem-solving."
   },
   {
     "question": "What are the overall goals of agility in project management? [2]",
@@ -33,7 +33,7 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "Integrating customer"
+    "answer": "feedback from each iteration into subsequent cycles to enhance the product over time. Focus on adapting to changing requirements and improving features based on continuous evaluation."
   },
   {
     "question": "What are the benefits of Agile project management compared to traditional approaches?",
@@ -75,7 +75,7 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "Involves developing a product"
+    "answer": "Involves developing a product in increments based on feature priority, which allows for frequent delivery of usable components and facilitates adaptation to changing requirements throughout the project lifecycle."
   },
   {
     "question": "According to agile principles, what is the primary measure of progress in software",
@@ -125,14 +125,14 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "It ensures that the developed"
+    "answer": ": It ensures that the developed products meet high-quality standards, incorporate best practices, and remain adaptable to changing requirements."
   },
   {
     "question": "Describe the key differences between a waterfall model and an agile model in terms of",
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "The waterfall model follows a"
+    "answer": "The waterfall model follows a linear, sequential approach where each phase (requirements, design, development, testing, deployment) is completed before moving to  the next, with little room for revisiting or adapting previous phases."
   },
   {
     "question": "What is a key limitation of the waterfall model regarding customer feedback? [1]",
@@ -157,14 +157,14 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "Comprehensive document that"
+    "answer": "Comprehensive document that aids project managers in executing and overseeing project phases."
   },
   {
     "question": "Explain how an agile project plan differs from a plan used in a defined development",
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "An agile project plan is viewed"
+    "answer": "An agile project plan is viewed as a flexible guide that adapts to changing requirements."
   },
   {
     "question": "What does the agile iron triangle prioritize as the main fixed constraint for project",
@@ -193,7 +193,7 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "The traditional iron triangle"
+    "answer": "The traditional iron triangle focuses on predefined scope, cost, and schedule as fixed constraints for project success, while the agile iron triangle emphasizes the ability to respond to change and deliver value to the customer, with scope and cost as variables."
   },
   {
     "question": "Who assumes much of the responsibility of a traditional project manager in agile",
@@ -221,7 +221,7 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "The role of a product manager"
+    "answer": "The role of a product manager (or product owner) in agile projects is to ensure that the delivered product meets customer requirements."
   },
   {
     "question": "What is a key characteristic of T-shaped competence in agile teams? [2]",
@@ -240,7 +240,7 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "Lead time, cycle time, response"
+    "answer": "Lead time, cycle time, response Time"
   },
   {
     "question": "How does risk response planning differ in agile projects compared to traditional projects?",
@@ -259,7 +259,7 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "Circumstances for the"
+    "answer": "Circumstances for the exception, causes of the circumstance, tolerance limits, possible solutions, recommended solutions, request for stakeholder decision."
   },
   {
     "question": "How is Risk analysis typically performed in agile projects?[1]",
@@ -306,7 +306,7 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "This ensures that requirements can evolve as work progresses and"
+    "answer": "This ensures that requirements can evolve as work progresses and that the final product meets the customer’s needs effectively"
   },
   {
     "question": "Who in the Scrum team is responsible to provide a clear vision for the product to be",
@@ -921,14 +921,14 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "Removing unnecessary activities, documentation, and product features that do not add"
+    "answer": "Removing unnecessary activities, documentation, and product features that do not add direct value to the end product."
   },
   {
     "question": "What is meant by 'sustainable pace' in the context of XP? Max. one phrase! [6]",
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "Practice of team members working no more than 40 hours per week to ensure consistent"
+    "answer": "Practice of team members working no more than 40 hours per week to ensure consistent and reliable delivery of software, avoiding burnout and maintaining high quality output."
   },
   {
     "question": "What is a distinguishing feature of Feature-driven development (FDD)? [1]",

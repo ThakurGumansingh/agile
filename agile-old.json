@@ -35,7 +35,7 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": " Integrating customer feedback from each iteration into subsequent cycles to enhance the product over time. Focus on adapting to changing requirements and improving features based on continuous evaluation."
+    "answer": "feedback from each iteration into subsequent cycles to enhance the product over time. Focus on adapting to changing requirements and improving features based on continuous evaluation."
   },
   {
     "question": "What are the benefits of Agile project management compared to traditional approaches?",
@@ -99,9 +99,7 @@
   {
     "question": "What is a core principle of agile development regarding team motivation? [1]",
     "options": [
-      "Encouraging team members to make decisions their own",
-      "Delegating all decisions from the project leader",
-      "Micromanaging each team member's work"
+      "Encouraging team members to make decisions their own"
     ],
     "correct": "Encouraging team members to make decisions their own",
     "type": "single"
@@ -109,7 +107,6 @@
   {
     "question": "What are key aspects of face-to-face communication in agile development? [2]",
     "options": [
-      "It is always conducted in a formal meeting setting",
       "It is essential for effective information sharing among team members",
       "It is the primary communication method regardless of circumstances",
       "It is used alongside other communication media when necessary"
@@ -123,8 +120,6 @@
   {
     "question": "What does sustaining a constant pace of development in agile encourage? [1]",
     "options": [
-      "Irregular working hours",
-      "Working overtime to meet deadlines",
       "Consistent and sustainable work hours"
     ],
     "correct": "Consistent and sustainable work hours",
@@ -138,7 +133,7 @@
     "answer": ": It ensures that the developed products meet high-quality standards, incorporate best practices, and remain adaptable to changing requirements."
   },
   {
-    "question": "Describe the key differences between a waterfall model and an agile model in terms of their approch to software development.(max. one phase!)[6]",
+    "question": "Describe the key differences between a waterfall model and an agile model in terms of",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -147,9 +142,7 @@
   {
     "question": "What is a key limitation of the waterfall model regarding customer feedback? [1]",
     "options": [
-      "Feedback is obtained only after testing",
-      "Feedback is provided during development",
-      "Feedback is obtained early in the process"
+      "Feedback is obtained only after testing"
     ],
     "correct": "Feedback is obtained only after testing",
     "type": "single"
@@ -157,10 +150,9 @@
   {
     "question": "How does an incremental model differ from a traditional waterfall model? [1]",
     "options": [
-      "It completes all development phases in a linear sequence",
       "It prioritizes features into must-have, should-have, and nice-to-have categories",
-      "It releases working software only after all phases are completed"
-      
+      "It releases working software only after all phases are completed",
+      "Project Plan"
     ],
     "correct": "It prioritizes features into must-have, should-have, and nice-to-have categories",
     "type": "single"
@@ -173,7 +165,7 @@
     "answer": "Comprehensive document that aids project managers in executing and overseeing project phases."
   },
   {
-    "question": "Explain how an agile project plan differs from a plan used in a defined development model(max.one phrase!)[8]",
+    "question": "Explain how an agile project plan differs from a plan used in a defined development",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -182,8 +174,6 @@
   {
     "question": "What does the agile iron triangle prioritize as the main fixed constraint for project",
     "options": [
-      "Scope",
-      "Cost",
       "Schedule"
     ],
     "correct": "Schedule",
@@ -204,7 +194,7 @@
     "type": "multi"
   },
   {
-    "question": "Describe the key differences between the traditional iron triangle of constraints and the agile iron triangle.(max.one phase)",
+    "question": "Describe the key differences between the traditional iron triangle of constraints and the",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -213,8 +203,6 @@
   {
     "question": "Who assumes much of the responsibility of a traditional project manager in agile",
     "options": [
-      "Business Analyst",
-      "Scrum master",
       "Project leader"
     ],
     "correct": "Project leader",
@@ -223,7 +211,6 @@
   {
     "question": "What responsibilities does a Scrum Master typically have in agile projects? [2]",
     "options": [
-      "Delegating tasks to team members",
       "Tracking and monitoring project progress",
       "Managing cross-team coordination",
       "Coaching teams to achieve their goals"
@@ -244,8 +231,6 @@
   {
     "question": "What is a key characteristic of T-shaped competence in agile teams? [2]",
     "options": [
-      "Narrow focus on a specific field",
-      "Lack of breadth of knowledge",
       "Ability to collaborate with specialists from other areas",
       "Depth of knowledge only in one area"
     ],
@@ -256,7 +241,7 @@
     "type": "multi"
   },
   {
-    "question": "Name the three variables used to calculate speed according to the concept of team velocity in agile projects (max, six words).[3]",
+    "question": "Name the three variables used to calculate speed according to the concept of team",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -265,8 +250,6 @@
   {
     "question": "How does risk response planning differ in agile projects compared to traditional projects?",
     "options": [
-      "Conduct by project managers only",
-      "Happens at beginning of each project phase",
       "Involves the entire team and occurs more frequently",
       "Happens less often than in traditional projects"
     ],
@@ -277,7 +260,7 @@
     "type": "multi"
   },
   {
-    "question": "Describe key components of an \"exception plan\" in agile risk management (max. 20 words)",
+    "question": "Describe key components of an \"exception plan\" in agile risk management (max. 20",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -286,17 +269,15 @@
   {
     "question": "How is Risk analysis typically performed in agile projects?[1]",
     "options": [
-      "Quantittative risk analysis",
-      "Qualitative risk analysis",
+      "Quanlitative risk analysis",
       "Both quantitative and qualitative risk analysis"
     ],
-    "correct": "Qualitative risk analysis",
+    "correct": "Quanlitative risk analysis",
     "type": "single"
   },
   {
     "question": "What does a risk burndown chart track over time in an agile project?",
     "options": [
-      "Severity of different project risk",
       "team velocity",
       "customer satisfaction ratings"
     ],
@@ -306,22 +287,18 @@
   {
     "question": "What is the purpose of spike in agile development",
     "options": [
-      "To Complete a user story",
       "To resolve technical certainties quickly",
-      "To document project formally"
-    ],
-    "correct":"To resolve technical certainties quickly",
-    "type":"single"
-  },
-  {
-    "question":"How are risks monitored in agile teams?",
-    "options":[
+      "To document project formally",
+      "6.How are risks monitored in agile teams?",
       "Recorded in a formal risk register",
       "Monitor using highly visible information radiators",
       "Discussed only during iteration review meetings"
     ],
-    "correct":"Monitor using highly visible information radiators",
-    "type": "single"
+    "correct": [
+      "To resolve technical certainties quickly",
+      "Monitor using highly visible information radiators"
+    ],
+    "type": "multi"
   },
   {
     "question": "Explain the role of landing zones in agile risk management.Max one phrase![6]",
@@ -331,14 +308,14 @@
     "answer": "Landing zones define a range of acceptable product functionality and find characteristics agreed upon between the team and customer during planning."
   },
   {
-    "question": "How is a short sprint called, that usually is of fixed length and in which a team examines a solution aspect or makes a prototype to demonstrate the feasibility of this solution?Max.One word![1]",
+    "question": "How is a short sprint called, that usually is of fixed length and in which a team examines a",
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "Spike"
+    "answer": "This ensures that requirements can evolve as work progresses and that the final product meets the customer’s needs effectively"
   },
   {
-    "question": "Who in the Scrum team is responsible to provide a clear vision for the product to be developed",
+    "question": "Who in the Scrum team is responsible to provide a clear vision for the product to be",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -356,7 +333,18 @@
     ],
     "type": "single"
   },
-  
+  {
+    "question": "Who in the Scrum team is responsible for ensuring that the product delivered as part of a project meets customer requirements? This role is often assumed by a local customer or a customer representative? [1]",
+    "options": [
+      "Lead programmer",
+      "Project Manager",
+      "Product Owner"
+    ],
+    "correct": [
+      "Product Owner"
+    ],
+    "type": "single"
+  },
   {
     "question": "What do you expect from a Scrum master? [2]",
     "options": [
@@ -370,77 +358,154 @@
     ],
     "type": "single"
   },
-   
   {
-    "question": " How is the meeting called in which team members discuss what was done during the previous 24 hours, what will happen during the next 24 hours, and any obstacles that have arisen? [1]",
-    "options": ["Sprint standup",
-    "Daily standby meeting", 
-    "Daily Scrum "
-  ],
-    "correct": [
-      "Daily Scrum"
+    "question": "What do you expect from a Scrum master? [2]",
+    "options": [
+      "She/he ensures that new product features are explained to the customer clearly and in a catchy manner",
+      "She/he explains to customers the needs and constraints of the project team.",
+      "She/he is responsible for tracking and monitoring project progress.",
+      "She/he helps team members achieve project goals and ensures that a project is moving in the right direction."
     ],
+    "correct": [
+    "She/he is responsible for tracking and monitoring project progress.",
+    "She/he helps team members achieve project goals and ensures that a project is moving in the right direction."
+    ],
+    "type": "multi"
+  },
+  
+  {
+    "question": "She/he helps team members achieve project goals and ensures that a project is",
+    "options": [
+      "moving in the right direction."
+    ],
+    "correct": "moving in the right direction.",
     "type": "single"
   },
   {
-    "question": " How is a meeting called in Scrum that takes place in large projects with multiple teams, to coordinate the work of the teams? Max, three words? [2] ",
+    "question": "How is the meeting called in which team members discuss what was done during the",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Sprint standup",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Daily standby meeting",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Daily Scrum \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "How is a meeting called in Scrum that takes place in large projects with multiple teams, to",
     "options": [],
     "correct": [],
     "type": "blank",
     "answer": "Scrum of scrums"
   },
   {
-    "question": "What does the term 'project criticality' refer to? [1]",
-    "options": [
-      "The size and complexity of a project",
-      "The severity of impact a project's failure could have",
-      "The level of stakeholder involvement in a project"
-    ],
-    "correct": [
-      "The severity of impact a project's failure could have"
-    ],
-    "type":"single"
+    "question": "What does the term \"project criticality\" refer to? [1]",
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "In a Scrum team, Mike is responsible for ensuring that the product delivered as part of a project meets customer requirements. What kind of roles/responsibilities has Mike in the Scrum team? [2] ",
-    "options": [
-      "He is the product owner.",
-      "He is responsible for tracking and monitoring project progress.",
-      "He is the main author of user stories.",
-      "He organizes the burn-down charts. "
-    ],
-    "correct": [
-      "He is the product owner.",
-      "He is the main author of user stories."
-    ],
-    "type": "multi"
+    "question": "The size and complexity of a project",
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "In Scrum teams, there is usually one person that helps team members achieve project goals and ensures that a project is moving in the right direction. Which role has this person usually in Scrum teams? ",
-    "options": [
-      "Scrum master",
-      "Project Leader", 
-      "Project Manager "
-    ],
-    "correct": ["Scrum master"],
-    "type": "single"
+    "question": "The severity of impact a project's failure could have \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "What is the name of a meeting at the end of each sprint in which the Scrum team, along with Scrum Master, Product Owner, and Developers, evaluate the results of the sprint. [Max,three words] [3]",
+    "question": "The level of stakeholder involvement in a project",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "In a Scrum team, Mike is responsible for ensuring that the product delivered as part of a",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "He is the product owner. \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "He is responsible for tracking and monitoring project progress.",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "He is the main author of user stories. \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "He organizes the burn-down charts.",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "In Scrum teams, there is usually one person that helps team members achieve project",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Scrum master \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Project Leader",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Project Manager",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "What is the name of a meeting at the end of each sprint in which the Scrum team, along",
     "options": [],
     "correct": [],
     "type": "blank",
     "answer": "Sprint review meeting"
   },
   {
-    "question": "Who in the Scrum team measures how well a project performs in terms of return on investment, or ROI? Max. two words! [2] ",
+    "question": "Who in the Scrum team measures how well a project performs in terms of return on",
     "options": [],
     "correct": [],
     "type": "blank",
     "answer": "Product owner"
   },
   {
-    "question": "What is the name of the role the Scrum master adopts in order to facilitate collaboration, support everyone's best thinking and work, encourage the team's participation, understanding, and shared responsibility, and to change or remove organizational impediments? Max. two words! [2] ",
+    "question": "What is the name of the role the Scrum master adopts in order to facilitate",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -448,19 +513,36 @@
   },
   {
     "question": "Which are charcteristics of the optimal Scrum team? [2]",
-    "options": [
-      "Self-reliant",
-      "Cross-competent", 
-      "Self-organizing", 
-      "Cross-functional"
-      ],
-    "correct": [
-      "Self-organizing", 
-      "Cross-functional"],
-    "type": "multi"
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": " After each sprint review meeting, the Scrum Master conducts a meeting with the development team to discuss how the sprint went and now it could have been improved.How is this meeting called? Max. two words! [2] ",
+    "question": "Self-reliant",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Cross-competent",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Self-organizing \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Cross-functional \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "After each sprint review meeting, the Scrum Master conducts a meeting with the",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -468,29 +550,60 @@
   },
   {
     "question": "To track its progress, a Scrum team uses which instruments? [2]",
-    "options": [
-      "Story points burndowns",
-      "Burnup charts ",
-      "Progressive charts",
-      "Burndown charts"
-  ],
-    "correct": [
-      "Burnup charts ",
-      "Burndown charts"
-  ],
-    "type": "multi"
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "As well as charts, you can use various metrics to track and report on the progress of a Scrum project, Which of the following is a valid matric used in Scrum? [1]",
-    "options": [
-      "Olines of code",
-      "standards violation",
-      "scrum points"],
-    "correct": ["standards violation"],
-    "type": "single"
+    "question": "Story points burndowns",
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "The agile project management cycle differs from the traditional project managerment cycle. It usually defines. five phases. Name the five phases in the correct order? Max. five words! [5] ",
+    "question": "Burnup charts \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Progressive charts",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Burndown charts \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "As well as charts, you can use various metrics to track and report on the progress of a",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Olines of code",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "standards violation \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "scrum points",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "The agile project management cycle differs from the traditional project managerment",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -498,55 +611,124 @@
   },
   {
     "question": "Identify the differences between the agile adapting and traditional Controlling phases. [2]",
-    "options": [
-      "Adapting involves reassessing project deliverables whereas Controlling involves working according to a pre-defined project plan.",
-      "Adapting begins when the product meets all customer specifications whereas Controlling involves planning every phase of a project", 
-      "Adapting involves coordinating project work whereas Controlling involves reassessing deliverables",
-      "Adapting begins when project objectives are determined whereas Controlling begins when a detailed project plan is created "],
-    "correct": [
-      "Adapting involves reassessing project deliverables whereas Controlling involves working according to a pre-defined project plan.",
-      "Adapting involves coordinating project work whereas Controlling involves reassessing deliverables"],
-    "type": "multi"
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "What is the primary focus during the envisioning phase of an agile project? [1]",
+    "question": "Adapting involves reassessing project deliverables whereas Controlling involves",
     "options": [
-      "Creating a detailed project plan",
-      "Determining and refining the project's vision and scope",
-      "Managing team interactions with stakeholders"
-  ],
-    "correct": ["Determining and refining the project's vision and scope"],
+      "working according to a pre-defined project plan."
+    ],
+    "correct": "working according to a pre-defined project plan.",
     "type": "single"
   },
   {
-    "question": "How does the closing phase in agile projects differ from traditional project management?",
+    "question": "Adapting begins when the product meets all customer specifications whereas",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Adapting involves coordinating project work whereas Controlling involves",
     "options": [
-      "It involves completing all project work and recording lessons learned",
-      "It only begins after several iterations with deliverables handed to the customer ",
-      "It focuses primarily on handing over final deliverables to the project sponsor ",
-      "It is not typically included in agile project methodologies"
-  ],
-    "correct": [ 
-      "It only begins after several iterations with deliverables handed to the customer ",
-      "It focuses primarily on handing over final deliverables to the project sponsor "],
-    "type": "multi"
+      "reassessing deliverables"
+    ],
+    "correct": "reassessing deliverables",
+    "type": "single"
+  },
+  {
+    "question": "Adapting begins when project objectives are determined whereas Controlling begins",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "What is the primary focus during the envisioning phase of an agile project? [1]",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Creating a detailed project plan",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Determining and refining the project's vision and scope \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Managing team interactions with stakeholders",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "How does the closing phase in agile projects differ from traditional project management?",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "It involves completing all project work and recording lessons learned",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "It only begins after several iterations with deliverables handed to the customer \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "It focuses primarily on handing over final deliverables to the project sponsor \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "It is not typically included in agile project methodologies",
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
     "question": "What are some key differences between agile and traditional project management phases",
-    "options": [
-      "Agile projects emphasize ongoing customer involvement and iterative review ",
-      "Traditional projects often have a fixed, detailed project scope from the start ",
-      "Agile teams are self-organizing and require extensive customer involvement",
-      "Traditional projects focus more on executing according to a predefined plan"
-  ],
-    "correct": [
-      "Agile projects emphasize ongoing customer involvement and iterative review ",
-      "Traditional projects often have a fixed, detailed project scope from the start "
-],
-    "type": "multi"
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": " Which phase of an agile project involves designing, building, and testing features in increments useful to the customer? Max. one word! [2] ",
+    "question": "Agile projects emphasize ongoing customer involvement and iterative review \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Traditional projects often have a fixed, detailed project scope from the start \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Agile teams are self-organizing and require extensive customer involvement",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Traditional projects focus more on executing according to a predefined plan",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Which phase of an agile project involves designing, building, and testing features in",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -554,16 +736,30 @@
   },
   {
     "question": "What activities are typically conducted during the speculating phase in agile projects? [1]",
-    "options": [
-      "Building and testing features",
-      "Developing rough project and release plans",
-      "Adapting product features based on feedback"
-  ],
-    "correct": ["Developing rough project and release plans"],
-    "type": "single"
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "In the adapting phase of an agile project, what are the primary responsibilities of the project leader? Max one phrase! [6]",
+    "question": "Building and testing features",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Developing rough project and release plans \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Adapting product features based on feedback",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "In the adapting phase of an agile project, what are the primary responsibilities of the",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -577,7 +773,7 @@
     "answer": "pair programming, sustainable pace, ongoing automated testing"
   },
   {
-    "question": "Which methodology encourages no more than 40 hours of work per week to maintain a sustainable work pace? Max, two words! [2] ",
+    "question": "Which methodology encourages no more than 40 hours of work per week to maintain a",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -585,46 +781,91 @@
   },
   {
     "question": "How does the closing phase in agile projects differ from traditional project management?",
-    "options": [
-      "It involves completing all project work and recording lessons learned",
-      "It only begins several iterations with deliverables handed to the customer ",
-      "It focuses primarily on handing over final deliverables to the project sponsor",
-      "It is not typically included in agile project methodologies"
-  ],
-    "correct": [
-      "It focuses primarily on handing over final deliverables to the project sponsor ",
-      "It only begins several iterations with deliverables handed to the customer "],
-    "type": "multi"
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "How is a project in the Crystal methodology called that includes up to around six members and these members are all expected to be co-located? Max. two words! [2]",
+    "question": "It involves completing all project work and recording lessons learned",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "It only begins several iterations with deliverables handed to the customer \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "It focuses primarily on handing over final deliverables to the project sponsor \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "It is not typically included in agile project methodologies",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "How is a project in the Crystal methodology called that includes up to around six",
     "options": [],
     "correct": [],
     "type": "blank",
     "answer": "Crystal clear"
   },
   {
-    "question": "Which stage is part of the Dynamic Systems Development Method (DSDM) project life cycle ?",
-    "options": [
-      "Initial Planning",
-      "Business Study ",
-      "Post-Implementation Review"
-  ],
-    "correct": ["Business Study"],
-    "type": "single"
+    "question": "Which stage is part of the Dynamic Systems Development Method (DSDM) project life",
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "Which methodology encourages no more than 40 hours of work per week to maintain a ustainable work pace? [1] ",
-    "options": [
-      "Scrum",
-      "XP",
-      "FDD"
-  ],
-    "correct": ["XP"],
-    "type": "single"
+    "question": "Initial Planning",
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "How is the phase in ASD called that includes feedback from end users who've tried using the developed software? Max. one word! [1]",
+    "question": "Business Study \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Post-Implementation Review",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Which methodology encourages no more than 40 hours of work per week to maintain a",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Scrum",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "XP \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "FDD",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "How is the phase in ASD called that includes feedback from end users who've tried using",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -639,23 +880,51 @@
   },
   {
     "question": "What is a core principle of Lean software development? [1]",
-    "options": [
-      "Encouraging long development cycles",
-      "Emphasizing unnecessary documentation",
-      "Focusing on system integrity"
-  ],
-    "correct": ["Focusing on system integrity"],
-    "type": "single"
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "According to Lean development, how does the principle of 'deliver software quickly' translate into practice?",
-    "options": [
-      "Anticipating future customer needs",
-      "Identifying and maintaining bottlenecks in the process",
-      "Planning smaller releases of software after shorter periods."
-  ],
-    "correct": ["Planning smaller releases of software after shorter periods."],
-    "type": "single"
+    "question": "Encouraging long development cycles",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Emphasizing unnecessary documentation",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Focusing on system integrity \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "According to Lean development, how does the principle of 'deliver software quickly'",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Anticipating future customer needs",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Identifying and maintaining bottlenecks in the process",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Planning smaller releases of software after shorter periods. \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
     "question": "Briefly explain the principle of 'eliminate waste' in Lean development. Max. one phrase!",
@@ -673,23 +942,50 @@
   },
   {
     "question": "What is a distinguishing feature of Feature-driven development (FDD)? [1]",
-    "options": [
-      "It is unstructured but highly adaptive.",
-      "It emphasizes a business perspective more than a technical one.",
-      "It provides a prescriptive model that is managed at the level of individual features."
-  ],
-    "correct": ["It provides a prescriptive model that is managed at the level of individual features."],
-    "type": "single"
+    "options": [],
+    "correct": [],
+    "type": null
   },
   {
-    "question": "During which phase of the Unified Process (UP) does the project proceed with iterations focused on developing small, production-worthy pieces of software? [1] ",
-    "options": [
-      "Inception",
-      "Elaboration",
-      "Construction"
-  ],
-    "correct": ["Construction"],
+    "question": "It is unstructured but highly adaptive.",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "It emphasizes a business perspective more than a technical one.",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "It provides a prescriptive model that is managed at the level of individual features. \u2713",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "During which phase of the Unified Process (UP) does the project proceed with iterations",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Inception",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Elaboration",
+    "options": [],
+    "correct": [],
+    "type": null
+  },
+  {
+    "question": "Construction \u2713",
+    "options": [],
+    "correct": [],
     "type": null
   }
-  
 ]

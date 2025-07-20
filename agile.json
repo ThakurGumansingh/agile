@@ -524,7 +524,8 @@
   ],
     "correct": [ 
       "It only begins after several iterations with deliverables handed to the customer ",
-      "It focuses primarily on handing over final deliverables to the project sponsor "],
+      "It focuses primarily on handing over final deliverables to the project sponsor "
+    ],
     "type": "multi"
   },
   {
@@ -589,7 +590,8 @@
   ],
     "correct": [
       "It focuses primarily on handing over final deliverables to the project sponsor ",
-      "It only begins several iterations with deliverables handed to the customer "],
+      "It only begins several iterations with deliverables handed to the customer "
+    ],
     "type": "multi"
   },
   {
@@ -603,7 +605,7 @@
     "question": "Which stage is part of the Dynamic Systems Development Method (DSDM) project life cycle ?",
     "options": [
       "Initial Planning",
-      "Business Study ",
+      "Business Study",
       "Post-Implementation Review"
   ],
     "correct": "Business Study",

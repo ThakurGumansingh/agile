@@ -689,8 +689,6 @@
     "correct": "Construction",
     "type": "single"
   },
-  
-  [
   {
     "question": "What is the goal of Sprint Planning?",
     "type": "single",
@@ -898,5 +896,4 @@
     "type": "blank",
     "answer": "completed story points per Sprint"
   }
-]
 ]

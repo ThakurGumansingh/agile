@@ -688,6 +688,215 @@
   ],
     "correct": "Construction",
     "type": "single"
-  }
+  },
   
+  [
+  {
+    "question": "What is the goal of Sprint Planning?",
+    "type": "single",
+    "options": [
+      "Define what can be delivered in the increment and how it will be achieved",
+      "Check the team\u2019s vacation calendar",
+      "Review code quality metrics",
+      "Plan upcoming holidays"
+    ],
+    "correct": "Define what can be delivered in the increment and how it will be achieved"
+  },
+  {
+    "question": "Who is responsible for maximizing the value of the product?",
+    "type": "single",
+    "options": [
+      "Product Owner",
+      "Scrum Master",
+      "Developers",
+      "Stakeholders"
+    ],
+    "correct": "Product Owner"
+  },
+  {
+    "question": "What defines when a backlog item is complete?",
+    "type": "single",
+    "options": [
+      "Definition of Done",
+      "Acceptance Criteria",
+      "Story Points",
+      "Sprint Review"
+    ],
+    "correct": "Definition of Done"
+  },
+  {
+    "question": "Which Agile meeting inspects progress toward the Sprint Goal?",
+    "type": "single",
+    "options": [
+      "Daily Scrum",
+      "Sprint Planning",
+      "Sprint Retrospective",
+      "Backlog Grooming"
+    ],
+    "correct": "Daily Scrum"
+  },
+  {
+    "question": "Which principle is emphasized in Agile over following a plan?",
+    "type": "single",
+    "options": [
+      "Responding to change",
+      "Contract negotiation",
+      "Process compliance",
+      "Sticking to Gantt charts"
+    ],
+    "correct": "Responding to change"
+  },
+  {
+    "question": "What does a Burndown chart track?",
+    "type": "single",
+    "options": [
+      "Remaining work in a Sprint",
+      "Budget usage",
+      "Number of bugs",
+      "Team satisfaction"
+    ],
+    "correct": "Remaining work in a Sprint"
+  },
+  {
+    "question": "Who facilitates Scrum events as requested or needed?",
+    "type": "single",
+    "options": [
+      "Scrum Master",
+      "Product Owner",
+      "Project Manager",
+      "Tester"
+    ],
+    "correct": "Scrum Master"
+  },
+  {
+    "question": "Which role is accountable for the Sprint Backlog?",
+    "type": "single",
+    "options": [
+      "Developers",
+      "Scrum Master",
+      "Product Owner",
+      "Agile Coach"
+    ],
+    "correct": "Developers"
+  },
+  {
+    "question": "What is the main focus of a Sprint Retrospective?",
+    "type": "single",
+    "options": [
+      "Improving team processes",
+      "Assigning blame",
+      "Demonstrating features",
+      "Estimating tasks"
+    ],
+    "correct": "Improving team processes"
+  },
+  {
+    "question": "What distinguishes Agile from traditional methods?",
+    "type": "single",
+    "options": [
+      "Iterative and incremental delivery",
+      "Detailed documentation",
+      "Strict command hierarchy",
+      "Waterfall phase gate reviews"
+    ],
+    "correct": "Iterative and incremental delivery"
+  },
+  {
+    "question": "Which of the following are values from the Agile Manifesto?",
+    "type": "multi",
+    "options": [
+      "Individuals and interactions",
+      "Working software",
+      "Customer collaboration",
+      "Processes and tools"
+    ],
+    "correct": [
+      "Individuals and interactions",
+      "Working software",
+      "Customer collaboration"
+    ]
+  },
+  {
+    "question": "What are common outputs of Sprint Planning?",
+    "type": "multi",
+    "options": [
+      "Sprint Goal",
+      "Selected Product Backlog Items",
+      "Meeting Minutes",
+      "Product Vision"
+    ],
+    "correct": [
+      "Sprint Goal",
+      "Selected Product Backlog Items"
+    ]
+  },
+  {
+    "question": "Which of the following activities occur in a Sprint?",
+    "type": "multi",
+    "options": [
+      "Design",
+      "Development",
+      "Testing",
+      "Budget Planning"
+    ],
+    "correct": [
+      "Design",
+      "Development",
+      "Testing"
+    ]
+  },
+  {
+    "question": "Which metrics are used in Agile to measure progress?",
+    "type": "multi",
+    "options": [
+      "Velocity",
+      "Burndown Chart",
+      "Team Size",
+      "Number of Releases"
+    ],
+    "correct": [
+      "Velocity",
+      "Burndown Chart"
+    ]
+  },
+  {
+    "question": "What are responsibilities of a Product Owner?",
+    "type": "multi",
+    "options": [
+      "Ordering the Product Backlog",
+      "Maximizing product value",
+      "Writing code",
+      "Managing infrastructure"
+    ],
+    "correct": [
+      "Ordering the Product Backlog",
+      "Maximizing product value"
+    ]
+  },
+  {
+    "question": "A cross-functional team in Scrum is expected to __________.",
+    "type": "blank",
+    "answer": "deliver a potentially releasable increment"
+  },
+  {
+    "question": "Agile promotes customer collaboration over __________.",
+    "type": "blank",
+    "answer": "contract negotiation"
+  },
+  {
+    "question": "The Sprint Review is held at the __________.",
+    "type": "blank",
+    "answer": "end of the Sprint"
+  },
+  {
+    "question": "Scrum encourages delivering working software __________.",
+    "type": "blank",
+    "answer": "frequently"
+  },
+  {
+    "question": "Velocity is calculated based on __________.",
+    "type": "blank",
+    "answer": "completed story points per Sprint"
+  }
+]
 ]

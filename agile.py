@@ -1,3 +1,4 @@
+
 import streamlit as st
 import json
 
@@ -18,12 +19,26 @@ if "submitted" not in st.session_state:
     st.session_state.submitted = False
 if "answers" not in st.session_state:
     st.session_state.answers = {}
+if "bookmarked" not in st.session_state:
+    st.session_state.bookmarked = set()
 
 q_index = st.session_state.q_index
 q = questions[q_index]
 
 st.title(f"Question {q_index + 1} / {len(questions)}")
 st.write(q["question"])
+
+# Bookmark / Attempt Later
+if st.button("🔖 Bookmark / Attempt Later"):
+    st.session_state.bookmarked.add(q_index)
+    st.success("Question bookmarked for later.")
+
+# Jump to question number
+jump_to = st.number_input("Jump to question number:", min_value=1, max_value=len(questions), step=1)
+if st.button("🚀 Jump"):
+    st.session_state.q_index = int(jump_to) - 1
+    st.session_state.submitted = False
+    st.rerun()
 
 # Show options based on question type
 user_answer = None
@@ -77,8 +92,16 @@ with col2:
         else:
             st.success("🎉 Quiz Completed!")
             st.write(f"Your Score: **{st.session_state.score} / {len(questions)}**")
+            if st.session_state.bookmarked:
+                st.subheader("📌 Review Bookmarked Questions")
+                bookmarked_list = sorted(list(st.session_state.bookmarked))
+                for i in bookmarked_list:
+                    if st.button(f"Review Question {i + 1}", key=f"bmark_{i}"):
+                        st.session_state.q_index = i
+                        st.session_state.submitted = False
+                        st.rerun()
             if st.button("🔁 Restart"):
                 for key in list(st.session_state.keys()):
-                    if key.startswith("q") or key in ["score", "submitted", "q_index", "answers"]:
+                    if key.startswith("q") or key in ["score", "submitted", "q_index", "answers", "bookmarked"]:
                         del st.session_state[key]
                 st.rerun()

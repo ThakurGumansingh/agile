@@ -351,9 +351,7 @@
       "Project Manager",
       "Product Owner"
     ],
-    "correct": [
-      "Product Owner"
-    ],
+    "correct": "Product Owner",
     "type": "single"
   },
   
@@ -366,24 +364,24 @@
       "She/he helps team members achieve project goals and ensures that a project is moving in the right direction."
     ],
     "correct": [
-      "She/he is responsible for tracking and monitoring project progress."
+      "She/he is responsible for tracking and monitoring project progress.",
+      "She/he helps team members achieve project goals and ensures that a project is moving in the right direction."
     ],
-    "type": "single"
+    "type": "multi"
   },
    
   {
-    "question": " How is the meeting called in which team members discuss what was done during the previous 24 hours, what will happen during the next 24 hours, and any obstacles that have arisen? [1]",
-    "options": ["Sprint standup",
-    "Daily standby meeting", 
-    "Daily Scrum "
-  ],
-    "correct": [
+    "question": "How is the meeting called in which team members discuss what was done during the previous 24 hours, what will happen during the next 24 hours, and any obstacles that have arisen? [1]",
+    "options": [
+      "Sprint standup",
+      "Daily standby meeting", 
       "Daily Scrum"
-    ],
+  ],
+    "correct": "Daily Scrum",
     "type": "single"
   },
   {
-    "question": " How is a meeting called in Scrum that takes place in large projects with multiple teams, to coordinate the work of the teams? Max, three words? [2] ",
+    "question": "How is a meeting called in Scrum that takes place in large projects with multiple teams, to coordinate the work of the teams? Max, three words? [2] ",
     "options": [],
     "correct": [],
     "type": "blank",
@@ -396,9 +394,7 @@
       "The severity of impact a project's failure could have",
       "The level of stakeholder involvement in a project"
     ],
-    "correct": [
-      "The severity of impact a project's failure could have"
-    ],
+    "correct": "The severity of impact a project's failure could have",
     "type":"single"
   },
   {
@@ -422,7 +418,7 @@
       "Project Leader", 
       "Project Manager "
     ],
-    "correct": ["Scrum master"],
+    "correct": "Scrum master",
     "type": "single"
   },
   {
@@ -486,7 +482,7 @@
       "Olines of code",
       "standards violation",
       "scrum points"],
-    "correct": ["standards violation"],
+    "correct": "standards violation",
     "type": "single"
   },
   {
@@ -515,7 +511,7 @@
       "Determining and refining the project's vision and scope",
       "Managing team interactions with stakeholders"
   ],
-    "correct": ["Determining and refining the project's vision and scope"],
+    "correct": "Determining and refining the project's vision and scope",
     "type": "single"
   },
   {
@@ -559,7 +555,7 @@
       "Developing rough project and release plans",
       "Adapting product features based on feedback"
   ],
-    "correct": ["Developing rough project and release plans"],
+    "correct": "Developing rough project and release plans",
     "type": "single"
   },
   {
@@ -610,7 +606,7 @@
       "Business Study ",
       "Post-Implementation Review"
   ],
-    "correct": ["Business Study"],
+    "correct": "Business Study",
     "type": "single"
   },
   {
@@ -620,7 +616,7 @@
       "XP",
       "FDD"
   ],
-    "correct": ["XP"],
+    "correct": "XP",
     "type": "single"
   },
   {
@@ -644,7 +640,7 @@
       "Emphasizing unnecessary documentation",
       "Focusing on system integrity"
   ],
-    "correct": ["Focusing on system integrity"],
+    "correct": "Focusing on system integrity",
     "type": "single"
   },
   {
@@ -654,7 +650,7 @@
       "Identifying and maintaining bottlenecks in the process",
       "Planning smaller releases of software after shorter periods."
   ],
-    "correct": ["Planning smaller releases of software after shorter periods."],
+    "correct": "Planning smaller releases of software after shorter periods.",
     "type": "single"
   },
   {
@@ -678,7 +674,7 @@
       "It emphasizes a business perspective more than a technical one.",
       "It provides a prescriptive model that is managed at the level of individual features."
   ],
-    "correct": ["It provides a prescriptive model that is managed at the level of individual features."],
+    "correct": "It provides a prescriptive model that is managed at the level of individual features.",
     "type": "single"
   },
   {

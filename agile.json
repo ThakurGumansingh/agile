@@ -686,8 +686,8 @@
       "Elaboration",
       "Construction"
   ],
-    "correct": ["Construction"],
-    "type": null
+    "correct": "Construction",
+    "type": "single"
   }
   
 ]

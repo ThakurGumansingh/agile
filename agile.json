@@ -1,899 +1,1176 @@
 [
   {
-    "question": "What was the reason for introducing Agile Computing (max. one phrases)? [8]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Challenges posed by novel and exploratory projects that involve high uncertainty, rapid change, and collaborative problem-solving."
-  },
-  {
-    "question": "What are the overall goals of agility in project management? [2]",
+    "question": "What is true about the concept of peer-to-peer networks?",
     "options": [
-      "Adhere strictly to the initial plan",
-      "Respond to change",
-      "Minimize customer involvement",
-      "Avoid cross-functional collaboration"
+      "Peer-to-peer applications allow their users to control how many node connections should be searched for or allowed at the same time.",
+      "A peer-to-peer network is a centralized communication model that can establish communication to all other nodes.",
+      "The computers of some users are both providers and consumers of resources."
     ],
-    "correct": [
-      "Respond to change",
-      "Minimize customer involvement"
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "In Agile project management, what is measured as progress? [1]",
-    "options": [
-      "Completion of phases (design, coding, testing)",
-      "Readiness of a feature for review and deployment by customers",
-      "Meeting milestones on schedule"
-    ],
-    "correct": "Readiness of a feature for review and deployment by customers",
+    "correct": "Peer-to-peer applications allow their users to control how many node connections should be searched for or allowed at the same time.",
     "type": "single"
   },
   {
-    "question": "Explain the concept of continuous improvement in Agile project management (max. one",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": " Integrating customer feedback from each iteration into subsequent cycles to enhance the product over time. Focus on adapting to changing requirements and improving features based on continuous evaluation."
-  },
-  {
-    "question": "What are the benefits of Agile project management compared to traditional approaches?",
+    "question": "What are advantages of peer-to-peer networks?",
     "options": [
-      "Increase in project scope",
-      "Speed up delivery",
-      "Reduce risk",
-      "Add more complexity"
-    ],
-    "correct": [
-      "Speed up delivery",
-      "Reduce risk"
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "How does Agile project management handle change management? [1]",
-    "options": [
-      "Through Integrated Change Control",
-      "Through separate change request processes",
-      "By integrating change into short cycles"
-    ],
-    "correct": "By integrating change into short cycles",
-    "type": "single"
-  },
-  {
-    "question": "What are the primary values of the Agile Manifesto? [2]",
-    "options": [
-      "Individuals and interactions",
-      "Process and tools",
-      "Comprehensive documentation",
-      "Responding to change"
-    ],
-    "correct": [
-      "Individuals and interactions",
-      "Responding to change"
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "Describe the concept of incremental approach in Agile project management (max. one",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Involves developing a product in increments based on feature priority, which allows for frequent delivery of usable components and facilitates adaptation to changing requirements throughout the project lifecycle."
-  },
-  {
-    "question": "According to agile principles, what is the primary measure of progress in software",
-    "options": [
-      "Completion of project phases",
-      "Customer satisfaction surveys",
-      "Delivery of fully functional software",
-      "Number of meetings held"
-    ],
-    "correct": [
-      "Completion of project phases",
-      "Delivery of fully functional software"
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "What is a core principle of agile development regarding team motivation? [1]",
-    "options": [
-      "Encouraging team members to make decisions their own",
-      "Delegating all decisions from the project leader",
-      "Micromanaging each team member's work"
-    ],
-    "correct": "Encouraging team members to make decisions their own",
-    "type": "single"
-  },
-  {
-    "question": "What are key aspects of face-to-face communication in agile development? [2]",
-    "options": [
-      "It is always conducted in a formal meeting setting",
-      "It is essential for effective information sharing among team members",
-      "It is the primary communication method regardless of circumstances",
-      "It is used alongside other communication media when necessary"
-    ],
-    "correct": [
-      "It is essential for effective information sharing among team members",
-      "It is used alongside other communication media when necessary"
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "What does sustaining a constant pace of development in agile encourage? [1]",
-    "options": [
-      "Irregular working hours",
-      "Working overtime to meet deadlines",
-      "Consistent and sustainable work hours"
-    ],
-    "correct": "Consistent and sustainable work hours",
-    "type": "single"
-  },
-  {
-    "question": "Explain the purpose of continuous attention to technical excellence in agile development",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": ": It ensures that the developed products meet high-quality standards, incorporate best practices, and remain adaptable to changing requirements."
-  },
-  {
-    "question": "Describe the key differences between a waterfall model and an agile model in terms of their approch to software development.(max. one phase!)[6]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "The waterfall model follows a linear, sequential approach where each phase (requirements, design, development, testing, deployment) is completed before moving to  the next, with little room for revisiting or adapting previous phases."
-  },
-  {
-    "question": "What is a key limitation of the waterfall model regarding customer feedback? [1]",
-    "options": [
-      "Feedback is obtained only after testing",
-      "Feedback is provided during development",
-      "Feedback is obtained early in the process"
-    ],
-    "correct": "Feedback is obtained only after testing",
-    "type": "single"
-  },
-  {
-    "question": "How does an incremental model differ from a traditional waterfall model? [1]",
-    "options": [
-      "It completes all development phases in a linear sequence",
-      "It prioritizes features into must-have, should-have, and nice-to-have categories",
-      "It releases working software only after all phases are completed"
-      
-    ],
-    "correct": "It prioritizes features into must-have, should-have, and nice-to-have categories",
-    "type": "single"
-  },
-  {
-    "question": "Describe the traditional role of a project plan (max. one phrase!) [6]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Comprehensive document that aids project managers in executing and overseeing project phases."
-  },
-  {
-    "question": "Explain how an agile project plan differs from a plan used in a defined development model(max.one phrase!)[8]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "An agile project plan is viewed as a flexible guide that adapts to changing requirements."
-  },
-  {
-    "question": "What does the agile iron triangle prioritize as the main fixed constraint for project",
-    "options": [
-      "Scope",
-      "Cost",
-      "Schedule"
-    ],
-    "correct": "Schedule",
-    "type": "single"
-  },
-  {
-    "question": "According to the agile iron triangle, what is the main goal of project success? [2]",
-    "options": [
-      "Adapting to fixed plans",
-      "Meeting predefined scope and cost",
-      "Delivering value to the customer",
-      "Following a strict schedule"
-    ],
-    "correct": [
-      "Adapting to fixed plans",
-      "Delivering value to the customer"
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "Describe the key differences between the traditional iron triangle of constraints and the agile iron triangle.(max.one phase)",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "The traditional iron triangle focuses on predefined scope, cost, and schedule as fixed constraints for project success, while the agile iron triangle emphasizes the ability to respond to change and deliver value to the customer, with scope and cost as variables."
-  },
-  {
-    "question": "Who assumes much of the responsibility of a traditional project manager in agile",
-    "options": [
-      "Business Analyst",
-      "Scrum master",
-      "Project leader"
-    ],
-    "correct": "Project leader",
-    "type": "single"
-  },
-  {
-    "question": "What responsibilities does a Scrum Master typically have in agile projects? [2]",
-    "options": [
-      "Delegating tasks to team members",
-      "Tracking and monitoring project progress",
-      "Managing cross-team coordination",
-      "Coaching teams to achieve their goals"
-    ],
-    "correct": [
-      "Tracking and monitoring project progress",
-      "Managing cross-team coordination"
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "Briefly describe the role of a product manager (or product owner) in agile projects (max.",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "The role of a product manager (or product owner) in agile projects is to ensure that the delivered product meets customer requirements."
-  },
-  {
-    "question": "What is a key characteristic of T-shaped competence in agile teams? [2]",
-    "options": [
-      "Narrow focus on a specific field",
-      "Lack of breadth of knowledge",
-      "Ability to collaborate with specialists from other areas",
-      "Depth of knowledge only in one area"
-    ],
-    "correct": [
-      "Ability to collaborate with specialists from other areas",
-      "Depth of knowledge only in one area"
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "Name the three variables used to calculate speed according to the concept of team velocity in agile projects (max, six words).[3]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Lead time, cycle time, response Time"
-  },
-  {
-    "question": "How does risk response planning differ in agile projects compared to traditional projects?",
-    "options": [
-      "Conduct by project managers only",
-      "Happens at beginning of each project phase",
-      "Involves the entire team and occurs more frequently",
-      "Happens less often than in traditional projects"
-    ],
-    "correct": [
-      "Involves the entire team and occurs more frequently",
-      "Happens less often than in traditional projects"
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "Describe key components of an \"exception plan\" in agile risk management (max. 20 words)",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Circumstances for the exception, causes of the circumstance, tolerance limits, possible solutions, recommended solutions, request for stakeholder decision."
-  },
-  {
-    "question": "How is Risk analysis typically performed in agile projects?[1]",
-    "options": [
-      "Quantittative risk analysis",
-      "Qualitative risk analysis",
-      "Both quantitative and qualitative risk analysis"
-    ],
-    "correct": "Qualitative risk analysis",
-    "type": "single"
-  },
-  {
-    "question": "What does a risk burndown chart track over time in an agile project?",
-    "options": [
-      "Severity of different project risk",
-      "team velocity",
-      "customer satisfaction ratings"
-    ],
-    "correct": "team velocity",
-    "type": "single"
-  },
-  {
-    "question": "What is the purpose of spike in agile development",
-    "options": [
-      "To Complete a user story",
-      "To resolve technical certainties quickly",
-      "To document project formally"
-    ],
-    "correct":"To resolve technical certainties quickly",
-    "type":"single"
-  },
-  {
-    "question":"How are risks monitored in agile teams?",
-    "options":[
-      "Recorded in a formal risk register",
-      "Monitor using highly visible information radiators",
-      "Discussed only during iteration review meetings"
-    ],
-    "correct":"Monitor using highly visible information radiators",
-    "type": "single"
-  },
-  {
-    "question": "Explain the role of landing zones in agile risk management.Max one phrase![6]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Landing zones define a range of acceptable product functionality and find characteristics agreed upon between the team and customer during planning."
-  },
-  {
-    "question": "How is a short sprint called, that usually is of fixed length and in which a team examines a solution aspect or makes a prototype to demonstrate the feasibility of this solution?Max.One word![1]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Spike"
-  },
-  {
-    "question": "Who in the Scrum team is responsible to provide a clear vision for the product to be developed",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Product owner"
-  },
-  {
-    "question": "Who in the Scrum team is responsible for ensuring that the product delivered as part of a project meets customer requirements? This role is often assumed by a local customer or a customer representative? [1]",
-    "options": [
-      "Lead programmer",
-      "Project Manager",
-      "Product Owner"
-    ],
-    "correct": "Product Owner",
-    "type": "single"
-  },
-  
-  {
-    "question": "What do you expect from a Scrum master? [2]",
-    "options": [
-      "She/he ensures that new product features are explained to the customer clearly and in a catchy manner",
-      "She/he explains to customers the needs and constraints of the project team.",
-      "She/he is responsible for tracking and monitoring project progress.",
-      "She/he helps team members achieve project goals and ensures that a project is moving in the right direction."
-    ],
-    "correct": [
-      "She/he is responsible for tracking and monitoring project progress.",
-      "She/he helps team members achieve project goals and ensures that a project is moving in the right direction."
-    ],
-    "type": "multi"
-  },
-   
-  {
-    "question": "How is the meeting called in which team members discuss what was done during the previous 24 hours, what will happen during the next 24 hours, and any obstacles that have arisen? [1]",
-    "options": [
-      "Sprint standup",
-      "Daily standby meeting", 
-      "Daily Scrum"
-  ],
-    "correct": "Daily Scrum",
-    "type": "single"
-  },
-  {
-    "question": "How is a meeting called in Scrum that takes place in large projects with multiple teams, to coordinate the work of the teams? Max, three words? [2] ",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Scrum of scrums"
-  },
-  {
-    "question": "What does the term 'project criticality' refer to? [1]",
-    "options": [
-      "The size and complexity of a project",
-      "The severity of impact a project's failure could have",
-      "The level of stakeholder involvement in a project"
-    ],
-    "correct": "The severity of impact a project's failure could have",
-    "type":"single"
-  },
-  {
-    "question": "In a Scrum team, Mike is responsible for ensuring that the product delivered as part of a project meets customer requirements. What kind of roles/responsibilities has Mike in the Scrum team? [2] ",
-    "options": [
-      "He is the product owner.",
-      "He is responsible for tracking and monitoring project progress.",
-      "He is the main author of user stories.",
-      "He organizes the burn-down charts. "
-    ],
-    "correct": [
-      "He is the product owner.",
-      "He is the main author of user stories."
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "In Scrum teams, there is usually one person that helps team members achieve project goals and ensures that a project is moving in the right direction. Which role has this person usually in Scrum teams? ",
-    "options": [
-      "Scrum master",
-      "Project Leader", 
-      "Project Manager "
-    ],
-    "correct": "Scrum master",
-    "type": "single"
-  },
-  {
-    "question": "What is the name of a meeting at the end of each sprint in which the Scrum team, along with Scrum Master, Product Owner, and Developers, evaluate the results of the sprint. [Max,three words] [3]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Sprint review meeting"
-  },
-  {
-    "question": "Who in the Scrum team measures how well a project performs in terms of return on investment, or ROI? Max. two words! [2] ",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Product owner"
-  },
-  {
-    "question": "What is the name of the role the Scrum master adopts in order to facilitate collaboration, support everyone's best thinking and work, encourage the team's participation, understanding, and shared responsibility, and to change or remove organizational impediments? Max. two words! [2] ",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Servant leader"
-  },
-  {
-    "question": "Which are charcteristics of the optimal Scrum team? [2]",
-    "options": [
-      "Self-reliant",
-      "Cross-competent", 
-      "Self-organizing", 
-      "Cross-functional"
-      ],
-    "correct": [
-      "Self-organizing", 
-      "Cross-functional"],
-    "type": "multi"
-  },
-  {
-    "question": " After each sprint review meeting, the Scrum Master conducts a meeting with the development team to discuss how the sprint went and now it could have been improved.How is this meeting called? Max. two words! [2] ",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Sprint retrospective"
-  },
-  {
-    "question": "To track its progress, a Scrum team uses which instruments? [2]",
-    "options": [
-      "Story points burndowns",
-      "Burnup charts ",
-      "Progressive charts",
-      "Burndown charts"
-  ],
-    "correct": [
-      "Burnup charts ",
-      "Burndown charts"
-  ],
-    "type": "multi"
-  },
-  {
-    "question": "As well as charts, you can use various metrics to track and report on the progress of a Scrum project, Which of the following is a valid matric used in Scrum? [1]",
-    "options": [
-      "Olines of code",
-      "standards violation",
-      "scrum points"],
-    "correct": "standards violation",
-    "type": "single"
-  },
-  {
-    "question": "The agile project management cycle differs from the traditional project managerment cycle. It usually defines. five phases. Name the five phases in the correct order? Max. five words! [5] ",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Envisioning-speculation- exploring adapting closing"
-  },
-  {
-    "question": "Identify the differences between the agile adapting and traditional Controlling phases. [2]",
-    "options": [
-      "Adapting involves reassessing project deliverables whereas Controlling involves working according to a pre-defined project plan.",
-      "Adapting begins when the product meets all customer specifications whereas Controlling involves planning every phase of a project", 
-      "Adapting involves coordinating project work whereas Controlling involves reassessing deliverables",
-      "Adapting begins when project objectives are determined whereas Controlling begins when a detailed project plan is created "],
-    "correct": [
-      "Adapting involves reassessing project deliverables whereas Controlling involves working according to a pre-defined project plan.",
-      "Adapting involves coordinating project work whereas Controlling involves reassessing deliverables"],
-    "type": "multi"
-  },
-  {
-    "question": "What is the primary focus during the envisioning phase of an agile project? [1]",
-    "options": [
-      "Creating a detailed project plan",
-      "Determining and refining the project's vision and scope",
-      "Managing team interactions with stakeholders"
-  ],
-    "correct": "Determining and refining the project's vision and scope",
-    "type": "single"
-  },
-  {
-    "question": "How does the closing phase in agile projects differ from traditional project management?",
-    "options": [
-      "It involves completing all project work and recording lessons learned",
-      "It only begins after several iterations with deliverables handed to the customer ",
-      "It focuses primarily on handing over final deliverables to the project sponsor ",
-      "It is not typically included in agile project methodologies"
-  ],
-    "correct": [ 
-      "It only begins after several iterations with deliverables handed to the customer ",
-      "It focuses primarily on handing over final deliverables to the project sponsor "
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "What are some key differences between agile and traditional project management phases",
-    "options": [
-      "Agile projects emphasize ongoing customer involvement and iterative review ",
-      "Traditional projects often have a fixed, detailed project scope from the start ",
-      "Agile teams are self-organizing and require extensive customer involvement",
-      "Traditional projects focus more on executing according to a predefined plan"
-  ],
-    "correct": [
-      "Agile projects emphasize ongoing customer involvement and iterative review ",
-      "Traditional projects often have a fixed, detailed project scope from the start "
-],
-    "type": "multi"
-  },
-  {
-    "question": " Which phase of an agile project involves designing, building, and testing features in increments useful to the customer? Max. one word! [2] ",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Exploring"
-  },
-  {
-    "question": "What activities are typically conducted during the speculating phase in agile projects? [1]",
-    "options": [
-      "Building and testing features",
-      "Developing rough project and release plans",
-      "Adapting product features based on feedback"
-  ],
-    "correct": "Developing rough project and release plans",
-    "type": "single"
-  },
-  {
-    "question": "In the adapting phase of an agile project, what are the primary responsibilities of the project leader? Max one phrase! [6]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Make adjustments based on feedback and team dynamics"
-  },
-  {
-    "question": "Name three important principles propagated by XP. Max. ten words! [6]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "pair programming, sustainable pace, ongoing automated testing"
-  },
-  {
-    "question": "Which methodology encourages no more than 40 hours of work per week to maintain a sustainable work pace? Max, two words! [2] ",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "XP/extreme programming"
-  },
-  {
-    "question": "How does the closing phase in agile projects differ from traditional project management?",
-    "options": [
-      "It involves completing all project work and recording lessons learned",
-      "It only begins several iterations with deliverables handed to the customer ",
-      "It focuses primarily on handing over final deliverables to the project sponsor",
-      "It is not typically included in agile project methodologies"
-  ],
-    "correct": [
-      "It focuses primarily on handing over final deliverables to the project sponsor ",
-      "It only begins several iterations with deliverables handed to the customer "
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "How is a project in the Crystal methodology called that includes up to around six members and these members are all expected to be co-located? Max. two words! [2]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Crystal clear"
-  },
-  {
-    "question": "Which stage is part of the Dynamic Systems Development Method (DSDM) project life cycle ?",
-    "options": [
-      "Initial Planning",
-      "Business Study",
-      "Post-Implementation Review"
-  ],
-    "correct": "Business Study",
-    "type": "single"
-  },
-  {
-    "question": "Which methodology encourages no more than 40 hours of work per week to maintain a ustainable work pace? [1] ",
-    "options": [
-      "Scrum",
-      "XP",
-      "FDD"
-  ],
-    "correct": "XP",
-    "type": "single"
-  },
-  {
-    "question": "How is the phase in ASD called that includes feedback from end users who've tried using the developed software? Max. one word! [1]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Learn"
-  },
-  {
-    "question": "What are the specific roles defined in a Crystal Clear project team? Max. five words! [6]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "sponsor, senior designer,programmer"
-  },
-  {
-    "question": "What is a core principle of Lean software development? [1]",
-    "options": [
-      "Encouraging long development cycles",
-      "Emphasizing unnecessary documentation",
-      "Focusing on system integrity"
-  ],
-    "correct": "Focusing on system integrity",
-    "type": "single"
-  },
-  {
-    "question": "According to Lean development, how does the principle of 'deliver software quickly' translate into practice?",
-    "options": [
-      "Anticipating future customer needs",
-      "Identifying and maintaining bottlenecks in the process",
-      "Planning smaller releases of software after shorter periods."
-  ],
-    "correct": "Planning smaller releases of software after shorter periods.",
-    "type": "single"
-  },
-  {
-    "question": "Briefly explain the principle of 'eliminate waste' in Lean development. Max. one phrase!",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Removing unnecessary activities, documentation, and product features that do not add direct value to the end product."
-  },
-  {
-    "question": "What is meant by 'sustainable pace' in the context of XP? Max. one phrase! [6]",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Practice of team members working no more than 40 hours per week to ensure consistent and reliable delivery of software, avoiding burnout and maintaining high quality output."
-  },
-  {
-    "question": "What is a distinguishing feature of Feature-driven development (FDD)? [1]",
-    "options": [
-      "It is unstructured but highly adaptive.",
-      "It emphasizes a business perspective more than a technical one.",
-      "It provides a prescriptive model that is managed at the level of individual features."
-  ],
-    "correct": "It provides a prescriptive model that is managed at the level of individual features.",
-    "type": "single"
-  },
-  {
-    "question": "During which phase of the Unified Process (UP) does the project proceed with iterations focused on developing small, production-worthy pieces of software? [1] ",
-    "options": [
-      "Inception",
-      "Elaboration",
-      "Construction"
-  ],
-    "correct": "Construction",
-    "type": "single"
-  },
-  {
-    "question": "What is the goal of Sprint Planning?",
-    "type": "single",
-    "options": [
-      "Define what can be delivered in the increment and how it will be achieved",
-      "Check the team\u2019s vacation calendar",
-      "Review code quality metrics",
-      "Plan upcoming holidays"
-    ],
-    "correct": "Define what can be delivered in the increment and how it will be achieved"
-  },
-  {
-    "question": "Who is responsible for maximizing the value of the product?",
-    "type": "single",
-    "options": [
-      "Product Owner",
-      "Scrum Master",
-      "Developers",
-      "Stakeholders"
-    ],
-    "correct": "Product Owner"
-  },
-  {
-    "question": "What defines when a backlog item is complete?",
-    "type": "single",
-    "options": [
-      "Definition of Done",
-      "Acceptance Criteria",
-      "Story Points",
-      "Sprint Review"
-    ],
-    "correct": "Definition of Done"
-  },
-  {
-    "question": "Which Agile meeting inspects progress toward the Sprint Goal?",
-    "type": "single",
-    "options": [
-      "Daily Scrum",
-      "Sprint Planning",
-      "Sprint Retrospective",
-      "Backlog Grooming"
-    ],
-    "correct": "Daily Scrum"
-  },
-  {
-    "question": "Which principle is emphasized in Agile over following a plan?",
-    "type": "single",
-    "options": [
-      "Responding to change",
-      "Contract negotiation",
-      "Process compliance",
-      "Sticking to Gantt charts"
-    ],
-    "correct": "Responding to change"
-  },
-  {
-    "question": "What does a Burndown chart track?",
-    "type": "single",
-    "options": [
-      "Remaining work in a Sprint",
-      "Budget usage",
-      "Number of bugs",
-      "Team satisfaction"
-    ],
-    "correct": "Remaining work in a Sprint"
-  },
-  {
-    "question": "Who facilitates Scrum events as requested or needed?",
-    "type": "single",
-    "options": [
-      "Scrum Master",
-      "Product Owner",
-      "Project Manager",
-      "Tester"
-    ],
-    "correct": "Scrum Master"
-  },
-  {
-    "question": "Which role is accountable for the Sprint Backlog?",
-    "type": "single",
-    "options": [
-      "Developers",
-      "Scrum Master",
-      "Product Owner",
-      "Agile Coach"
-    ],
-    "correct": "Developers"
-  },
-  {
-    "question": "What is the main focus of a Sprint Retrospective?",
-    "type": "single",
-    "options": [
-      "Improving team processes",
-      "Assigning blame",
-      "Demonstrating features",
-      "Estimating tasks"
-    ],
-    "correct": "Improving team processes"
-  },
-  {
-    "question": "What distinguishes Agile from traditional methods?",
-    "type": "single",
-    "options": [
-      "Iterative and incremental delivery",
-      "Detailed documentation",
-      "Strict command hierarchy",
-      "Waterfall phase gate reviews"
-    ],
-    "correct": "Iterative and incremental delivery"
-  },
-  {
-    "question": "Which of the following are values from the Agile Manifesto?",
-    "type": "multi",
-    "options": [
-      "Individuals and interactions",
-      "Working software",
-      "Customer collaboration",
-      "Processes and tools"
-    ],
-    "correct": [
-      "Individuals and interactions",
-      "Working software",
-      "Customer collaboration"
-    ]
-  },
-  {
-    "question": "What are common outputs of Sprint Planning?",
-    "type": "multi",
-    "options": [
-      "Sprint Goal",
-      "Selected Product Backlog Items",
-      "Meeting Minutes",
-      "Product Vision"
-    ],
-    "correct": [
-      "Sprint Goal",
-      "Selected Product Backlog Items"
-    ]
-  },
-  {
-    "question": "Which of the following activities occur in a Sprint?",
-    "type": "multi",
-    "options": [
-      "Design",
-      "Development",
-      "Testing",
-      "Budget Planning"
-    ],
-    "correct": [
-      "Design",
-      "Development",
-      "Testing"
-    ]
-  },
-  {
-    "question": "Which metrics are used in Agile to measure progress?",
-    "type": "multi",
-    "options": [
+      "Single point of failure",
+      "Mutability",
       "Velocity",
-      "Burndown Chart",
-      "Team Size",
-      "Number of Releases"
+      "Transparency"
     ],
     "correct": [
       "Velocity",
-      "Burndown Chart"
-    ]
+      "Transparency"
+    ],
+    "type": "multi"
   },
   {
-    "question": "What are responsibilities of a Product Owner?",
-    "type": "multi",
+    "question": "What is true about the distributed ledger technology?",
     "options": [
-      "Ordering the Product Backlog",
-      "Maximizing product value",
-      "Writing code",
-      "Managing infrastructure"
+      "Distributed ledger technologies slow down transactions by integrating the a central instance.",
+      "Distributed ledgers have the tendency to raise costs per transaction.",
+      "Distributed ledger technology creates a system that is more difficult to manipulate or successfully attack.",
+      "Distributed ledgers have neither a central data store nor centralized management functions."
     ],
     "correct": [
-      "Ordering the Product Backlog",
-      "Maximizing product value"
-    ]
+      "Distributed ledger technology creates a system that is more difficult to manipulate or successfully attack.",
+      "Distributed ledgers have neither a central data store nor centralized management functions."
+    ],
+    "type": "multi"
   },
   {
-    "question": "A cross-functional team in Scrum is expected to __________.",
-    "type": "blank",
-    "answer": "deliver a potentially releasable increment"
+    "question": "What is true about blockchains?",
+    "options": [
+      "The user's IP address is used to create an alphanumeric string called a hash (a type of unique fingerprint of the transaction).",
+      "After the first block is created, each subsequent block in the ledger uses the timestamp of the previous block to calculate its own timestamp.",
+      "Consensus ensures that all copies of the distributed ledger use the same state."
+    ],
+    "correct": "Consensus ensures that all copies of the distributed ledger use the same state.",
+    "type": "single"
   },
   {
-    "question": "Agile promotes customer collaboration over __________.",
+    "question": "What means SPOF in the context of network architectures? Max. five words!",
+    "options": [],
+    "correct": [],
     "type": "blank",
-    "answer": "contract negotiation"
+    "answer": "Single point of failure/Single-point-of-failure"
   },
   {
-    "question": "The Sprint Review is held at the __________.",
+    "question": "Explain distributed ledger technology in a few words. Max. 8 words!",
+    "options": [],
+    "correct": [],
     "type": "blank",
-    "answer": "end of the Sprint"
+    "answer": "Decentralized data storage andtransmission across networked computers."
   },
   {
-    "question": "Scrum encourages delivering working software __________.",
+    "question": "List potential benefits of distributed ledger technology. Max. ten words!",
+    "options": [],
+    "correct": [],
     "type": "blank",
-    "answer": "frequently"
+    "answer": "Faster transactions, reduced costs, enhanced security, and improved transparency."
   },
   {
-    "question": "Velocity is calculated based on __________.",
+    "question": "What is a characteristic of peer-to-peer (P2P) networks?",
+    "options": [
+      "They rely on a central coordination point.",
+      "They have strict user control over network parameters.",
+      "Each node has the same capabilities and can establish communication with all other nodes."
+    ],
+    "correct": "Each node has the same capabilities and can establish communication with all other nodes.",
+    "type": "single"
+  },
+  {
+    "question": "What are the disadvantages of distributed systems compared to central individual computers?",
+    "options": [
+      "Coordination effort",
+      "Communication effort",
+      "Lower security concerns",
+      "Higher reliability"
+    ],
+    "correct": [
+      "Coordination effort",
+      "Communication effort"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What is a primary characteristic of blockchain technology?",
+    "options": [
+      "It relies on a centralized database.",
+      "It has a single point of failure.",
+      "It enables distributed and tamper-proof data management."
+    ],
+    "correct": "It enables distributed and tamper-proof data management.",
+    "type": "single"
+  },
+  {
+    "question": "Describe primary characteristics of blockchain or distributed ledger. Max. 8 words!",
+    "options": [],
+    "correct": [],
     "type": "blank",
-    "answer": "completed story points per Sprint"
+    "answer": "Decentralized, tamper-proof data storage and transmission."
+  },
+  {
+    "question": "The actor who solves the hash puzzle represents the majority and is thus allowed to propose a transaction for posting to the blockchain. How is this mechanism called?",
+    "options": [
+      "Proof-of-work",
+      "Proof-of-majority",
+      "Proof-of-honesty"
+    ],
+    "correct": "Proof-of-work",
+    "type": "single"
+  },
+  {
+    "question": "Choosing the consensus algorithm to use is perhaps the most important aspect when choosing a",
+    "options": [
+      "blockchain platform. Of the following which are valid standard methods? [2]",
+      "Proof-of-word",
+      "Proof-of-reliability",
+      "Proof-of-honesty",
+      "Proof-of-authority"
+    ],
+    "correct": [
+      "Proof-of-honesty",
+      "Proof-of-authority"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What type of blockchain requires explicit access authorization?",
+    "options": [
+      "Public blockchain",
+      "Private blockchain",
+      "All blockchains"
+    ],
+    "correct": "Private blockchain",
+    "type": "single"
+  },
+  {
+    "question": "What are the characteristics of cryptocurrency transactions?",
+    "options": [
+      "They can be carried out without a digital wallet.",
+      "They involve peer-to-peer (P2P) network monitoring.",
+      "They require physical representation of currency.",
+      "They use strongly encrypted hash codes."
+    ],
+    "correct": [
+      "They involve peer-to-peer (P2P) network monitoring.",
+      "They use strongly encrypted hash codes."
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What is the consequence of changing a block's information in a blockchain? Max. six words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Breaks the hash sequence, disrupting consensus."
+  },
+  {
+    "question": "What happens if consensus is not reached in a blockchain network? Max. ten words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "No new blocks are added until the issue is resolved."
+  },
+  {
+    "question": "What is primarily used to manage blockchain transaction data and status?",
+    "options": [
+      "Decentralized applications",
+      "Traditional databases",
+      "Business logic"
+    ],
+    "correct": "Business logic",
+    "type": "single"
+  },
+  {
+    "question": "Blockchain technology is seen as a means to improve which of the following?",
+    "options": [
+      "Supply chain transparency",
+      "Voting systems",
+      "News channels",
+      "None of the above"
+    ],
+    "correct": [
+      "Supply chain transparency",
+      "Voting systems"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "Why do many organizations prefer private blockchain systems? Max. six words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Control over access and customization."
+  },
+  {
+    "question": "What fundamental aspect does blockchain provide for business transactions?",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Trust and robust transaction processing."
+  },
+  {
+    "question": "What does the Byzantine Generals Problem illustrate in the context of blockchain?",
+    "options": [
+      "The need for simultaneous actions in a transaction",
+      "The challenges of achieving consensus among distributed peers",
+      "The importance of encryption in communications"
+    ],
+    "correct": "The challenges of achieving consensus among distributed peers",
+    "type": "single"
+  },
+  {
+    "question": "What does the Byzantine Generals Problem illustrate in the context of blockchain?",
+    "options": [
+      "The need for simultaneous actions in a transaction",
+      "The challenges of achieving consensus among distributed peers",
+      "The importance of encryption in communications"
+    ],
+    "correct": "The challenges of achieving consensus among distributed peers",
+    "type": "single"
+  },
+  {
+    "question": "Why does the Byzantine Generals Problem relate to blockchain technology? Max. one phrase",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "It demonstrates the difficulty of achieving consensus in a decentralized environment especially when there is a possibility of betrayal or misinformation among peers."
+  },
+  {
+    "question": "How is the immutability of the blockchain ledger achieved? Max. one phrase!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "The ledger is tamper-proof, ensuring no participant can alter entries once they are saved, and it is managed to be immune to attacks."
+  },
+  {
+    "question": "Which aspects are critical to maintaining integrity in blockchain systems?",
+    "options": [
+      "Knowledge of the number of peers",
+      "Knowledge of the trustworthiness of peers",
+      "Use of public ledgers",
+      "Use of private keys"
+    ],
+    "correct": [
+      "Knowledge of the number of peers",
+      "Knowledge of the trustworthiness of peers"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What are the primary threats to integrity in peer-to-peer blockchain systems?",
+    "options": [
+      "Encryption vulnerabilities",
+      "Malicious actors",
+      "Technical failures",
+      "High transaction fees"
+    ],
+    "correct": [
+      "Malicious actors",
+      "Technical failures"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What is essential for proof of ownership in blockchain technology?",
+    "options": [
+      "Identification of the object only",
+      "Assignment of the owner to the object only",
+      "Identification of the owner and the object"
+    ],
+    "correct": "Identification of the owner and the object",
+    "type": "single"
+  },
+  {
+    "question": "How does blockchain prevent the double spending of digital assets? Max. 15 words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "By synchronizing ledgers to update all transactions in real-time, preventing unauthorized repeats."
+  },
+  {
+    "question": "What does double spending exploit in blockchain systems?",
+    "options": [
+      "The anonymity of transactions",
+      "The physical nature of digital assets",
+      "The time delay in updating and synchronizing transaction information"
+    ],
+    "correct": "The time delay in updating and synchronizing transaction information",
+    "type": "single"
+  },
+  {
+    "question": "What is essential for proof of ownership in blockchain technology?",
+    "options": [
+      "Identification of the object only",
+      "Assignment of the owner to the object only",
+      "Identification of the owner and the object"
+    ],
+    "correct": "Identification of the owner and the object",
+    "type": "single"
+  },
+  {
+    "question": "What are key design features of ledgers in blockchain for untrusted environments? Max.12 words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Ledgers are immutable and distributed, ensuring secure and shared transaction histories."
+  },
+  {
+    "question": "Which tasks must blockchain software manage in a peer-to-peer environment?",
+    "options": [
+      "Managing interaction between nodes",
+      "Capturing the transfer of ownership",
+      "Resolving conflicts between transaction histories",
+      "Enhancing the speed of transaction verification"
+    ],
+    "correct": [
+      "Capturing the transfer of ownership",
+      "Resolving conflicts between transaction histories"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What does semantic correctness in transaction processing focus on?",
+    "options": [
+      "The time a transaction is executed.",
+      "The intended effect of transaction data.",
+      "The fee payable for executing a transaction."
+    ],
+    "correct": "The intended effect of transaction data.",
+    "type": "single"
+  },
+  {
+    "question": "Which of the following are criteria for adding transaction data to the Blockchain?",
+    "options": [
+      "Formal correctness.",
+      "Semantic correctness.",
+      "Amount of fee paid.",
+      "Hash authorization."
+    ],
+    "correct": [
+      "Formal correctness.",
+      "Semantic correctness."
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What must be verified to ensure the correct transfer of ownership in blockchain transactions? Max. five words[4]",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Owner's consent and authorization."
+  },
+  {
+    "question": "Connecting hash references to a tree is very useful for grouping many different pieces of data that aremavailable at the same time and making them accessible through a single hash reference. How is this tree structure often called in blockchain? Max. two words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Merkle tree"
+  },
+  {
+    "question": "Comparing hash values is a simple and efficient way to detect changes. Which of the following statements are correct statements about hash values?",
+    "options": [
+      "Hashing is used to compare data by comparing its content piece by piece.",
+      "If all cryptographic hash values differ, all the data under consideration are also different.",
+      "If two or more of the cryptographic hash values are identical, their corresponding input data is also Identical.",
+      "Any manipulation of the underlying data can be detected because the time stamp of the hash value differs"
+    ],
+    "correct": [
+      "If all cryptographic hash values differ, all the data under consideration are also different.",
+      "If two or more of the cryptographic hash values are identical, their corresponding input data is also Identical."
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What is the purpose of using cryptographic hash functions for data security in blockchains? Max, ten words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "To ensure data integrity and detect any changes."
+  },
+  {
+    "question": "What is the primary function of hash references in maintaining data integrity?",
+    "options": [
+      "To speed up data retrieval",
+      "To ensure that referenced data has not been altered",
+      "To increase the data storage capacity",
+      "To encrypt data for security"
+    ],
+    "correct": "To ensure that referenced data has not been altered",
+    "type": "single"
+  },
+  {
+    "question": "Why are hash references considered crucial for detecting data alterations in blockchain? Max. one phrase[6]",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "They validate that the data they point to has not been modified, any change Invalidates the reference, signaling an alteration."
+  },
+  {
+    "question": "How do corrupted hash references indicate data integrity issues?",
+    "options": [
+      "They enhance data encryption.",
+      "They suggest data has been altered after the reference was created.",
+      "They have no impact on data integrity."
+    ],
+    "correct": "They suggest data has been altered after the reference was created.",
+    "type": "single"
+  },
+  {
+    "question": "Which properties of cryptographic hash functions are essential for blockchain security?",
+    "options": [
+      "Deterministic nature",
+      "Reverse engineering capability",
+      "Collision proof characteristics",
+      "Predictability of hash values"
+    ],
+    "correct": [
+      "Deterministic nature",
+      "Collision proof characteristics"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What is the significance of the head of the chain in a dynamic record structure?",
+    "options": [
+      "It is irrelevant to the structure.",
+      "It references the most recently added record.",
+      "It encrypts the entire data chain."
+    ],
+    "correct": "It references the most recently added record.",
+    "type": "single"
+  },
+  {
+    "question": "What are the primary functions of hash references in blockchain technology?",
+    "options": [
+      "Ensuring data integrity",
+      "Accelerating data retrieval",
+      "Preventing data encryption"
+    ],
+    "correct": "Ensuring data integrity",
+    "type": "single"
+  },
+  {
+    "question": "Describe the role of hash puzzles in blockchain. Max. three words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Proof of work."
+  },
+  {
+    "question": "Explain the significance of Merkle trees. Max. four words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Efficient grouping and access."
+  },
+  {
+    "question": "Which qualities has an encryption method that is based on the pairwise use of two keys, a private kev and a public key. With the private key, data is encrypted or a digital signature is generated. With the public key you can encrypt data and check generated signatures for their authenticity?",
+    "options": [
+      "asymmetric",
+      "being called public key method",
+      "being called private key method symmetric"
+    ],
+    "correct": [
+      "asymmetric",
+      "being called public key method"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What distinguishes asymmetric cryptography from symmetric cryptography?",
+    "options": [
+      "It uses the same key for encryption and decryption.",
+      "It relies on a single key for encryption and decryption.",
+      "It utilizes two complementary keys for encryption and decryption.",
+      "It employs complex algorithms for data transmission."
+    ],
+    "correct": [
+      "It utilizes two complementary keys for encryption and decryption.",
+      "It employs complex algorithms for data transmission."
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What are the primary functions of public and private keys in asymmetric cryptography?",
+    "options": [
+      "Identifying account owners and decrypting messages.",
+      "Encrypting messages and ensuring data integrity.",
+      "Creating digital signatures and encrypting",
+      "Decrypting messages and authorizing transactions."
+    ],
+    "correct": [
+      "Identifying account owners and decrypting messages.",
+      "Decrypting messages and authorizing transactions."
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "Describe the main steps of creating a digital signature in asymmetric cryptography. Max. four words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "transaction, hash, encrypt, link."
+  },
+  {
+    "question": "Explain briefly how digital signatures verify the authenticity of messages. Max. six words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Create hash, decrypt signature. compare hashes."
+  },
+  {
+    "question": "What is the primary purpose of a private key in asymmetric cryptography?",
+    "options": [
+      "Identifying account owners.",
+      "Encrypting messages.",
+      "Decrypting encrypted text."
+    ],
+    "correct": "Decrypting encrypted text.",
+    "type": "single"
+  },
+  {
+    "question": "What is the significance of creating a digital signature for a transaction in blockchain?",
+    "options": [
+      "Identifying the recipient of the transaction.",
+      "Verifying the authenticity of the transaction.",
+      "Encrypting the transaction data"
+    ],
+    "correct": "Verifying the authenticity of the transaction.",
+    "type": "single"
+  },
+  {
+    "question": "What is the role of the public key in secure communication using asymmetric cryptography?",
+    "options": [
+      "Encrypting messages for the sender.",
+      "Decrypting messages for the sender,",
+      "Decrypting messages for the receiver."
+    ],
+    "correct": "Decrypting messages for the receiver.",
+    "type": "single"
+  },
+  {
+    "question": "How does asymmetric cryptography ensure ownership transfer in blockchain transactions? Max. six words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "By signing and verifying transactions."
+  },
+  {
+    "question": "How does asymmetric cryptography ensure secure communication between parties?",
+    "options": [
+      "By using the same key for encryption and decryption.",
+      "By encrypting messages with a private key.",
+      "By ensuring only the owner of the private key can decrypt encrypted text."
+    ],
+    "correct": "By ensuring only the owner of the private key can decrypt encrypted text.",
+    "type": "single"
+  },
+  {
+    "question": "Describe the consequences of modifying a transaction in the blockchain. Max. four words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Entire blockchain becomes invalid."
+  },
+  {
+    "question": "What happens if a hash reference within a block header is modified?",
+    "options": [
+      "Only the block header becomes invalid.",
+      "The entire block becomes invalid.",
+      "Only the referenced transaction becomes invalid.",
+      "The Merkle tree structure remains intact."
+    ],
+    "correct": "The entire block becomes invalid.",
+    "type": "single"
+  },
+  {
+    "question": "What is the impact of hash reference changes on the integrity of the Merkle tree?",
+    "options": [
+      "The root of the Merkle tree becomes invalid.",
+      "Only the affected branch of the Merkle tree is affected.",
+      "The Merkle tree structure remains unaffected.",
+      "The blockchain data structure becomes invalid."
+    ],
+    "correct": [
+      "The root of the Merkle tree becomes invalid.",
+      "The blockchain data structure becomes invalid."
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What happens when a transaction is replaced within the blockchain?",
+    "options": [
+      "The entire Merkle tree structure is invalidated.",
+      "Only the replaced transaction becomes invalid.",
+      "The block containing the replaced transaction becomes invalid.",
+      "The blockchain remains intact."
+    ],
+    "correct": [
+      "The entire Merkle tree structure is invalidated.",
+      "The block containing the replaced transaction becomes invalid."
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "Explain the process of ensuring data integrity when modifying transactions. Max. six words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Update all hash references in sequence."
+  },
+  {
+    "question": "What is the primary challenge in maintaining data integrity in blockchain?",
+    "options": [
+      "Ensuring fast transaction processing.",
+      "Preserving transaction order.",
+      "Managing network scalability."
+    ],
+    "correct": [
+      "Ensuring fast transaction processing.",
+      "Preserving transaction order."
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "How does the blockchain detect and prevent transaction manipulation through hash reference renewal?",
+    "options": [
+      "By encrypting all transaction data.",
+      "By continuously monitoring network traffic.",
+      "By renewing all hash references affected by changes."
+    ],
+    "correct": "By renewing all hash references affected by changes.",
+    "type": "single"
+  },
+  {
+    "question": "After determining the actor entitled to propose a transaction for posting, all other actors in the system take on the role of validators who check the correctness of the transactions. Which of the following are types of correctness that are checked by the validators?",
+    "options": [
+      "Semantic correctness",
+      "Correctness of authorization",
+      "Correctness of authentication",
+      "Verification correctness"
+    ],
+    "correct": [
+      "Semantic correctness",
+      "Correctness of authorization"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "The work to solve the puzzle is adequately remunerated. This renumeration is intended to compensate for the energy applied (and the use of special hardware) and also to enable a profit. How is this renumeration called?",
+    "options": [
+      "Block reward",
+      "Mining reward",
+      "Proof reward"
+    ],
+    "correct": "Block reward",
+    "type": "single"
+  },
+  {
+    "question": "Instead of a central authority, all actors in the peer-to-peer network of the blockchain application confirm the authenticity of their exchange actions. How is this joint confirmation called? Max. one word!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Consensus"
+  },
+  {
+    "question": "Which concept is described here: \"The communication between individuals in which the question arises under which circumstances signals can be honest or dishonest. The candidate has to do something expensive and difficult, such as robbing a store or getting a gang symbol tattooed. Then she or he is considered trustworthy.\" Max. two words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Costly signaling/costly signalling"
+  },
+  {
+    "question": "What is the role of validators in a blockchain?",
+    "options": [
+      "To propose new transactions",
+      "To solve cryptographic puzzles",
+      "To check the correctness of transactions",
+      "6 Which consensus mechanism combines Proof of Work (PoW) with Proof of Stake (PoS)? [1]",
+      "Proof of Importance (Pol)",
+      "Proof of Activity (PoAc)",
+      "Proof of Stake (PoS)"
+    ],
+    "correct": [
+      "To check the correctness of transactions",
+      "Proof of Activity (PoAc)"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What is one of the ways to punish actors compromising the integrity of the blockchain?",
+    "options": [
+      "Rewarding them with additional tokens",
+      "Reclaiming the reward for invalid blocks.",
+      "Increasing their chances of being selected"
+    ],
+    "correct": "Reclaiming the reward for invalid blocks.",
+    "type": "single"
+  },
+  {
+    "question": "What characteristic distinguishes Proof of Importance (Pol) from Proof of Stake (PoS)?",
+    "options": [
+      "Wealth of the actors",
+      "Random selection of validators",
+      "Active participation in the network"
+    ],
+    "correct": "Active participation in the network",
+    "type": "single"
+  },
+  {
+    "question": "Explain the concept of consensus in a blockchain. Max. ten words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Agreement among network participants on the validity of transactions."
+  },
+  {
+    "question": "What is the main drawback of Proof of Work (PoW) consensus mechanism? Max. six words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "High energy consumption and computational intensity."
+  },
+  {
+    "question": "Who decides which branch of a blockchain to expand when there's a fork? Max. one phrase!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "The actor who first solves the puzzle of a new block"
+  },
+  {
+    "question": "Which criteria are used to determine the valid transaction sequence in a blockchain?",
+    "options": [
+      "The criterion of the longest chain",
+      "The criterion of the heaviest chain",
+      "Random selection",
+      "Consensus among all actors"
+    ],
+    "correct": [
+      "The criterion of the longest chain",
+      "The criterion of the heaviest chain"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What determines which branch of a blockchain is expanded when there is a fork?",
+    "options": [
+      "Coincidence",
+      "Consensus among all actors",
+      "Random selection"
+    ],
+    "correct": "Consensus among all actors",
+    "type": "single"
+  },
+  {
+    "question": "What happens to orphaned blocks in a blockchain? [1].",
+    "options": [
+      "They are reclaimed for renumeration",
+      "They are processed to become part of the authorized history",
+      "They are abandoned by the actors"
+    ],
+    "correct": "They are abandoned by the actors",
+    "type": "single"
+  },
+  {
+    "question": "How does the blockchain ensure resistance against manipulation?",
+    "options": [
+      "By majority control of computing power",
+      "By random selection of blocks.",
+      "By enforcing strict consensus rules"
+    ],
+    "correct": "By majority control of computing power",
+    "type": "single"
+  },
+  {
+    "question": "How are orphaned blocks handled in a blockchain?",
+    "options": [
+      "They are abandoned by the actors",
+      "They are reclaimed for renumeration",
+      "They are processed to become part of the authorized history",
+      "They are used to extend the blockchain"
+    ],
+    "correct": [
+      "They are abandoned by the actors",
+      "They are reclaimed for renumeration"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What are the consequences of selecting a chain as the authoritative version of",
+    "options": [
+      "transaction data? [2]",
+      "Orphaned blocks",
+      "Reclaimed renumeration",
+      "Clarification of ownership",
+      "Preparation of transactions"
+    ],
+    "correct": [
+      "Orphaned blocks",
+      "Clarification of ownership"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What is the purpose of selecting the longest or heaviest chain?",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "To determine the authoritative version of the transaction history."
+  },
+  {
+    "question": "Explain the concept of consensus in a blockchain. Max. ten words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Agreement among network participants on the validity of transactions."
+  },
+  {
+    "question": "What is the main drawback of Proof of Work (PoW) consensus mechanism? Max. six words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "High energy consumption and computational intensity."
+  },
+  {
+    "question": "Who decides which branch of a blockchain to expand when there's a fork? Max. one phrase!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "The actor who first solves the puzzle of a new block"
+  },
+  {
+    "question": "Which criteria are used to determine the valid transaction sequence in a blockchain?",
+    "options": [
+      "The criterion of the longest chain",
+      "The criterion of the heaviest chain",
+      "Random selection",
+      "Consensus among all actors"
+    ],
+    "correct": [
+      "The criterion of the longest chain",
+      "The criterion of the heaviest chain"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What determines which branch of a blockchain is expanded when there is a fork?",
+    "options": [
+      "Coincidence",
+      "Consensus among all actors",
+      "Random selection"
+    ],
+    "correct": "Consensus among all actors",
+    "type": "single"
+  },
+  {
+    "question": "What happens to orphaned blocks in a blockchain? [1].",
+    "options": [
+      "They are reclaimed for renumeration",
+      "They are processed to become part of the authorized history",
+      "They are abandoned by the actors"
+    ],
+    "correct": "They are abandoned by the actors",
+    "type": "single"
+  },
+  {
+    "question": "How does the blockchain ensure resistance against manipulation?",
+    "options": [
+      "By majority control of computing power",
+      "By random selection of blocks.",
+      "By enforcing strict consensus rules"
+    ],
+    "correct": "By majority control of computing power",
+    "type": "single"
+  },
+  {
+    "question": "How are orphaned blocks handled in a blockchain?",
+    "options": [
+      "They are abandoned by the actors",
+      "They are reclaimed for renumeration",
+      "They are processed to become part of the authorized history",
+      "They are used to extend the blockchain"
+    ],
+    "correct": [
+      "They are abandoned by the actors",
+      "They are reclaimed for renumeration"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What are the consequences of selecting a chain as the authoritative version of transaction data?",
+    "options": [
+      "Orphaned blocks",
+      "Reclaimed renumeration",
+      "Clarification of ownership",
+      "Preparation of transactions"
+    ],
+    "correct": [
+      "Orphaned blocks",
+      "Clarification of ownership"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What is the purpose of selecting the longest or heaviest chain?",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "To determine the authoritative version of the transaction history."
+  },
+  {
+    "question": "Explain the concept of consensus in a blockchain. Max. ten words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Agreement among network participants on the validity of transactions."
+  },
+  {
+    "question": "What is a smart contract? Give a brief definition (max. one phrase).",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "A smart contract is a computer protocol that determines interactions between actors in any type of blockchain."
+  },
+  {
+    "question": "What is the core function of a smart contract?",
+    "options": [
+      "Determines blockchain architecture",
+      "Manages network security",
+      "Regulates transaction details"
+    ],
+    "correct": "Regulates transaction details",
+    "type": "single"
+  },
+  {
+    "question": "What distinguishes public and private blockchains? Max, five words]",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Access permissions and consensus mechanisms."
+  },
+  {
+    "question": "What distinguishes public and private blockchains?",
+    "options": [
+      "Network size",
+      "Access permissions",
+      "Encryption algorithms"
+    ],
+    "correct": "Access permissions",
+    "type": "single"
+  },
+  {
+    "question": "Which design parameters should be considered when developing blockchain applications?",
+    "options": [
+      "Public vs. private blockchain",
+      "Transparency vs. privacy",
+      "Network speed",
+      "Proof-of-Work vs. Proof-of-Stake"
+    ],
+    "correct": [
+      "Public vs. private blockchain",
+      "Transparency vs. privacy"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "Which approaches are used to balance security and speed in blockchain systems?",
+    "options": [
+      "Public key encryption",
+      "Proof of Work (POW)",
+      "Permissioned blockchains",
+      "Data obfuscation techniques"
+    ],
+    "correct": [
+      "Proof of Work (POW)",
+      "Permissioned blockchains"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "Which consensus mechanism is suitable for private blockchains with a central authority?",
+    "options": [
+      "Proof of Authority (PoA)",
+      "Proct-of-Work (PoW)",
+      "Proof-of-Stake (POS)"
+    ],
+    "correct": "Proof of Authority (PoA)",
+    "type": "single"
+  },
+  {
+    "question": "What is the role of the private key in blockchain security?",
+    "options": [
+      "Verifies network nodes",
+      "Generates new blocks",
+      "Authorizes ownership and transactions"
+    ],
+    "correct": "Authorizes ownership and transactions",
+    "type": "single"
+  },
+  {
+    "question": "What poses a challenge to blockchain scalability?",
+    "options": [
+      "Solving hash puzzles",
+      "Consensus mechanisms",
+      "Network latency"
+    ],
+    "correct": "Solving hash puzzles",
+    "type": "single"
+  },
+  {
+    "question": "How does a smart contract differ from a traditional legal contract?",
+    "options": [
+      "Human interpretation",
+      "Requires notary public approval",
+      "Protocol-based",
+      "Automated execution"
+    ],
+    "correct": [
+      "Protocol-based",
+      "Automated execution"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What are the challenges of ensuring data privacy in blockchains? (2)",
+    "options": [
+      "Regulatory compliance",
+      "Network corigestion",
+      "Lack of flexibility",
+      "Consensus mechanism efficiency"
+    ],
+    "correct": [
+      "Regulatory compliance",
+      "Lack of flexibility"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What is the role of a private key in blockchain security? Max, four words!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Authorizes ownership and transactions"
+  },
+  {
+    "question": "The consensus algorithm contains the so-called trilemma. Security and decentralization are two aspects of the trilemma. What is the third one?",
+    "options": [
+      "Usability",
+      "Scalability",
+      "Interoperability"
+    ],
+    "correct": "Scalability",
+    "type": "single"
+  },
+  {
+    "question": "Smart contracts can enable microtransactions for different types of billing. For example, they could be used to control expenses: you can give your daughter/son \u20ac20 with the condition that the money cannot be spent on fast food and on cinema tickets only if the screening does not take place in the afternoon, when she/he should actually do her/his homework. What kind of instrument is mentioned here to store the money handled by the microtransaction? Max, two words.",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Digital wallet"
+  },
+  {
+    "question": "How can smart contracts benefit the healthcare industry?",
+    "options": [
+      "By regulating energy consumption.",
+      "By automating real estate transactions",
+      "By preventing incorrect paymerits and fraud"
+    ],
+    "correct": "By preventing incorrect paymerits and fraud",
+    "type": "single"
+  },
+  {
+    "question": "What challenges are associated with the consensus mechanism in blockchain design?",
+    "options": [
+      "Balancing security, scalability, and decentralization",
+      "Ensuring data privacy",
+      "Addressing environmental impact",
+      "Managing network congestion"
+    ],
+    "correct": [
+      "Balancing security, scalability, and decentralization",
+      "Addressing environmental impact"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "How can blockchain technology enhance transparency and efficiency in supply chains? Max. one phrase!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "By providing secure and transparent tracking of supply chain data among all stakeholders."
+  },
+  {
+    "question": "What is a key advantage of using blockchain in the automotive industry?",
+    "options": [
+      "Storing easily accessible information about vehicle maintenance and ownership history",
+      "Reducing manufacturing costs",
+      "Enhancing fuel efficiency"
+    ],
+    "correct": "Storing easily accessible information about vehicle maintenance and ownership history",
+    "type": "single"
+  },
+  {
+    "question": "What practical considerations are important in blockchain integration?",
+    "options": [
+      "Achieving high network speeds",
+      "Ensuring data security and integrity",
+      "Striving for interoperability with existing systems",
+      "Minimizing regulatory compliance requirements"
+    ],
+    "correct": [
+      "Ensuring data security and integrity",
+      "Striving for interoperability with existing systems"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "How do different consensus mechanisms affect blockchain performance?",
+    "options": [
+      "Proof of Stake (PoS) enables faster transactions at the expense of security",
+      "Proof of Authority (PoA) ensures decentralization with slower transaction speeds",
+      "Proof of Work (PoW) offers security but sacrifices scalability",
+      "Proof of Honesty (PoH) provides higher scalability but lower transaction speeds"
+    ],
+    "correct": [
+      "Proof of Stake (PoS) enables faster transactions at the expense of security",
+      "Proof of Work (PoW) offers security but sacrifices scalability"
+    ],
+    "type": "multi"
+  },
+  {
+    "question": "What are the challenges associated with integrating blockchain into current company systems? Max. one phrase![6]",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "Ensuring interoperability and compliance with legal frameworks while maintaining. data integrity."
+  },
+  {
+    "question": "What type of transactions can smart contracts enable?",
+    "options": [
+      "Microtransactions for different types of billing.",
+      "Macrotransactions for large-scale investments",
+      "Transactional contracts for government projects"
+    ],
+    "correct": "Microtransactions for different types of billing.",
+    "type": "single"
+  },
+  {
+    "question": "Which parameter presents a challenge in the design of blockchain applications?",
+    "options": [
+      "Balancing security, scalability, and decentralization",
+      "Achieving high network speeds",
+      "Minimizing energy consumption"
+    ],
+    "correct": "Balancing security, scalability, and decentralization",
+    "type": "single"
+  },
+  {
+    "question": "How can blockchain technology empower workforce management? Max. one phrase!",
+    "options": [],
+    "correct": [],
+    "type": "blank",
+    "answer": "By using smart contracts for automating payroll, benefits, and performance Incentives, improving transparency and efficiency"
   }
 ]

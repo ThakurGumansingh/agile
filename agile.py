@@ -48,17 +48,22 @@ q = questions[q_index]
 st.title(f"Question {q_index + 1} / {len(questions)}")
 st.write(q["question"])
 
-# --- Bookmark button ---
-if st.button("🔖 Bookmark / Attempt Later"):
-    st.session_state.bookmarked.add(q_index)
-    st.success("Question bookmarked for later.")
+# --- Bookmark + Jump inline layout ---
+col_bm, col_jump_input, col_jump_btn = st.columns([1, 1, 1])
 
-# --- Jump to question ---
-jump_to = st.number_input("Jump to question number:", min_value=1, max_value=len(questions), step=1)
-if st.button("🚀 Jump"):
-    st.session_state.q_index = int(jump_to) - 1
-    st.session_state.submitted = False
-    st.rerun()
+with col_bm:
+    if st.button("🔖 Bookmark"):
+        st.session_state.bookmarked.add(q_index)
+        st.success("Bookmarked!")
+
+with col_jump_input:
+    jump_to = st.number_input("Jump to:", min_value=1, max_value=len(questions), step=1, label_visibility="collapsed")
+
+with col_jump_btn:
+    if st.button("🚀"):
+        st.session_state.q_index = int(jump_to) - 1
+        st.session_state.submitted = False
+        st.rerun()
 
 # --- Display answer input ---
 user_answer = None
@@ -72,49 +77,50 @@ elif q["type"] == "multi":
 elif q["type"] == "blank":
     user_answer = st.text_input("Enter your answer:", key=f"q{q_index}_input")
 
-# --- Submit answer button ---
-if st.button("Submit Answer", disabled=st.session_state.submitted):
-    st.session_state.submitted = True
-    correct = q["correct"] if q["type"] != "blank" else q["answer"]
-    st.session_state.answers[q_index] = user_answer
-    if is_correct(user_answer, correct, q["type"]):
-        st.success("✅ Correct!")
-        st.session_state.score += 1
-    else:
-        st.error("❌ Incorrect.")
-        st.info(f"Correct Answer: {correct}")
+# --- Submit & Next side-by-side ---
+col_submit, col_next = st.columns([1, 1])
 
-# --- Navigation controls ---
-col1, col2 = st.columns([1, 1])
+with col_submit:
+    if st.button("✅ Submit", disabled=st.session_state.submitted):
+        st.session_state.submitted = True
+        correct = q["correct"] if q["type"] != "blank" else q["answer"]
+        st.session_state.answers[q_index] = user_answer
+        if is_correct(user_answer, correct, q["type"]):
+            st.success("✅ Correct!")
+            st.session_state.score += 1
+        else:
+            st.error("❌ Incorrect.")
+            st.info(f"Correct Answer: {correct}")
 
-with col1:
-    if q_index > 0:
-        if st.button("⬅️ Go Back"):
-            st.session_state.q_index -= 1
+with col_next:
+    if st.session_state.submitted and q_index < len(questions) - 1:
+        if st.button("➡️ Next"):
+            st.session_state.q_index += 1
             st.session_state.submitted = False
             st.rerun()
 
-with col2:
-    if st.session_state.submitted:
-        if q_index < len(questions) - 1:
-            if st.button("➡️ Next Question"):
-                st.session_state.q_index += 1
+# --- Navigation Back ---
+if q_index > 0:
+    if st.button("⬅️ Go Back"):
+        st.session_state.q_index -= 1
+        st.session_state.submitted = False
+        st.rerun()
+
+# --- Final screen ---
+if st.session_state.submitted and q_index == len(questions) - 1:
+    st.success("🎉 Quiz Completed!")
+    st.write(f"Your Score: **{st.session_state.score} / {len(questions)}**")
+
+    if st.session_state.bookmarked:
+        st.subheader("📌 Review Bookmarked Questions")
+        for i in sorted(list(st.session_state.bookmarked)):
+            if st.button(f"Review Question {i + 1}", key=f"bmark_{i}"):
+                st.session_state.q_index = i
                 st.session_state.submitted = False
                 st.rerun()
-        else:
-            st.success("🎉 Quiz Completed!")
-            st.write(f"Your Score: **{st.session_state.score} / {len(questions)}**")
 
-            if st.session_state.bookmarked:
-                st.subheader("📌 Review Bookmarked Questions")
-                for i in sorted(list(st.session_state.bookmarked)):
-                    if st.button(f"Review Question {i + 1}", key=f"bmark_{i}"):
-                        st.session_state.q_index = i
-                        st.session_state.submitted = False
-                        st.rerun()
-
-            if st.button("🔁 Restart"):
-                for key in list(st.session_state.keys()):
-                    if key.startswith("q") or key in ["score", "submitted", "q_index", "answers", "bookmarked"]:
-                        del st.session_state[key]
-                st.rerun()
+    if st.button("🔁 Restart"):
+        for key in list(st.session_state.keys()):
+            if key.startswith("q") or key in ["score", "submitted", "q_index", "answers", "bookmarked"]:
+                del st.session_state[key]
+        st.rerun()

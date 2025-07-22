@@ -497,7 +497,7 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "Create hash, decrypt signature. compare hashes."
+    "answer": "Create hash, decrypt signature, compare hashes."
   },
   {
     "question": "What is the primary purpose of a private key in asymmetric cryptography?",
@@ -796,7 +796,7 @@
     ],
     "correct": [
       "They are abandoned by the actors",
-      "They are reclaimed for renumeration"
+      "They are used to extend the blockchain"
     ],
     "type": "multi"
   },
@@ -1025,7 +1025,7 @@
     "options": [],
     "correct": [],
     "type": "blank",
-    "answer": "Ensuring interoperability and compliance with legal frameworks while maintaining. data integrity."
+    "answer": "Ensuring interoperability and compliance with legal frameworks while maintaining data integrity."
   },
   {
     "question": "What type of transactions can smart contracts enable?",

@@ -220,16 +220,6 @@
     "type": "single"
   },
   {
-    "question": "What does the Byzantine Generals Problem illustrate in the context of blockchain?",
-    "options": [
-      "The need for simultaneous actions in a transaction",
-      "The challenges of achieving consensus among distributed peers",
-      "The importance of encryption in communications"
-    ],
-    "correct": "The challenges of achieving consensus among distributed peers",
-    "type": "single"
-  },
-  {
     "question": "Why does the Byzantine Generals Problem relate to blockchain technology? Max. one phrase",
     "options": [],
     "correct": [],
@@ -296,16 +286,6 @@
       "The time delay in updating and synchronizing transaction information"
     ],
     "correct": "The time delay in updating and synchronizing transaction information",
-    "type": "single"
-  },
-  {
-    "question": "What is essential for proof of ownership in blockchain technology?",
-    "options": [
-      "Identification of the object only",
-      "Assignment of the owner to the object only",
-      "Identification of the owner and the object"
-    ],
-    "correct": "Identification of the owner and the object",
     "type": "single"
   },
   {
@@ -721,13 +701,6 @@
     "type": "single"
   },
   {
-    "question": "Explain the concept of consensus in a blockchain. Max. ten words!",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Agreement among network participants on the validity of transactions."
-  },
-  {
     "question": "What is the main drawback of Proof of Work (PoW) consensus mechanism? Max. six words!",
     "options": [],
     "correct": [],
@@ -742,40 +715,6 @@
     "answer": "The actor who first solves the puzzle of a new block"
   },
   {
-    "question": "Which criteria are used to determine the valid transaction sequence in a blockchain?",
-    "options": [
-      "The criterion of the longest chain",
-      "The criterion of the heaviest chain",
-      "Random selection",
-      "Consensus among all actors"
-    ],
-    "correct": [
-      "The criterion of the longest chain",
-      "The criterion of the heaviest chain"
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "What determines which branch of a blockchain is expanded when there is a fork?",
-    "options": [
-      "Coincidence",
-      "Consensus among all actors",
-      "Random selection"
-    ],
-    "correct": "Consensus among all actors",
-    "type": "single"
-  },
-  {
-    "question": "What happens to orphaned blocks in a blockchain? [1].",
-    "options": [
-      "They are reclaimed for renumeration",
-      "They are processed to become part of the authorized history",
-      "They are abandoned by the actors"
-    ],
-    "correct": "They are abandoned by the actors",
-    "type": "single"
-  },
-  {
     "question": "How does the blockchain ensure resistance against manipulation?",
     "options": [
       "By majority control of computing power",
@@ -784,20 +723,6 @@
     ],
     "correct": "By majority control of computing power",
     "type": "single"
-  },
-  {
-    "question": "How are orphaned blocks handled in a blockchain?",
-    "options": [
-      "They are abandoned by the actors",
-      "They are reclaimed for renumeration",
-      "They are processed to become part of the authorized history",
-      "They are used to extend the blockchain"
-    ],
-    "correct": [
-      "They are abandoned by the actors",
-      "They are reclaimed for renumeration"
-    ],
-    "type": "multi"
   },
   {
     "question": "What are the consequences of selecting a chain as the authoritative version of transaction data? [2]",
@@ -828,20 +753,6 @@
     "answer": "Agreement among network participants on the validity of transactions."
   },
   {
-    "question": "What is the main drawback of Proof of Work (PoW) consensus mechanism? Max. six words!",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "High energy consumption and computational intensity."
-  },
-  {
-    "question": "Who decides which branch of a blockchain to expand when there's a fork? Max. one phrase!",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "The actor who first solves the puzzle of a new block"
-  },
-  {
     "question": "Which criteria are used to determine the valid transaction sequence in a blockchain?",
     "options": [
       "The criterion of the longest chain",
@@ -876,16 +787,6 @@
     "type": "single"
   },
   {
-    "question": "How does the blockchain ensure resistance against manipulation?",
-    "options": [
-      "By majority control of computing power",
-      "By random selection of blocks.",
-      "By enforcing strict consensus rules"
-    ],
-    "correct": "By majority control of computing power",
-    "type": "single"
-  },
-  {
     "question": "How are orphaned blocks handled in a blockchain?",
     "options": [
       "They are abandoned by the actors",
@@ -898,27 +799,6 @@
       "They are reclaimed for renumeration"
     ],
     "type": "multi"
-  },
-  {
-    "question": "What are the consequences of selecting a chain as the authoritative version of transaction data?",
-    "options": [
-      "Orphaned blocks",
-      "Reclaimed renumeration",
-      "Clarification of ownership",
-      "Preparation of transactions"
-    ],
-    "correct": [
-      "Orphaned blocks",
-      "Clarification of ownership"
-    ],
-    "type": "multi"
-  },
-  {
-    "question": "What is the purpose of selecting the longest or heaviest chain?",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "To determine the authoritative version of the transaction history."
   },
   {
     "question": "Explain the concept of consensus in a blockchain. Max. ten words!",

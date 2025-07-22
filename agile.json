@@ -120,9 +120,8 @@
     "type": "single"
   },
   {
-    "question": "Choosing the consensus algorithm to use is perhaps the most important aspect when choosing a",
+    "question": "Choosing the consensus algorithm to use is perhaps the most important aspect when choosing a blockchain platform. Of the following which are valid standard methods? [2]",
     "options": [
-      "blockchain platform. Of the following which are valid standard methods? [2]",
       "Proof-of-word",
       "Proof-of-reliability",
       "Proof-of-honesty",
@@ -686,17 +685,20 @@
     "options": [
       "To propose new transactions",
       "To solve cryptographic puzzles",
-      "To check the correctness of transactions",
-      "6 Which consensus mechanism combines Proof of Work (PoW) with Proof of Stake (PoS)? [1]",
-      "Proof of Importance (Pol)",
+      "To check the correctness of transactions"
+    ],
+    "correct": "To check the correctness of transactions",
+    "type": "single"
+  },
+  {
+    "question": "Which consensus mechanism combines Proof of Work (PoW) with Proof of Stake (PoS)?",
+    "options": [
+      "Proof of Importance (PoI)",
       "Proof of Activity (PoAc)",
       "Proof of Stake (PoS)"
     ],
-    "correct": [
-      "To check the correctness of transactions",
-      "Proof of Activity (PoAc)"
-    ],
-    "type": "multi"
+    "correct": "Proof of Activity (PoAc)",
+    "type": "single"
   },
   {
     "question": "What is one of the ways to punish actors compromising the integrity of the blockchain?",
@@ -798,9 +800,8 @@
     "type": "multi"
   },
   {
-    "question": "What are the consequences of selecting a chain as the authoritative version of",
+    "question": "What are the consequences of selecting a chain as the authoritative version of transaction data? [2]",
     "options": [
-      "transaction data? [2]",
       "Orphaned blocks",
       "Reclaimed renumeration",
       "Clarification of ownership",

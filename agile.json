@@ -449,7 +449,8 @@
     "options": [
       "asymmetric",
       "being called public key method",
-      "being called private key method symmetric"
+      "being called private key method",
+      "symmetric"
     ],
     "correct": [
       "asymmetric",
@@ -606,11 +607,8 @@
       "Preserving transaction order.",
       "Managing network scalability."
     ],
-    "correct": [
-      "Ensuring fast transaction processing.",
-      "Preserving transaction order."
-    ],
-    "type": "multi"
+    "correct": "Preserving transaction order.",
+    "type": "single"
   },
   {
     "question": "How does the blockchain detect and prevent transaction manipulation through hash reference renewal?",

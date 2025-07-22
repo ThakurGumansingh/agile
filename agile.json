@@ -799,13 +799,6 @@
     "type": "multi"
   },
   {
-    "question": "Explain the concept of consensus in a blockchain. Max. ten words!",
-    "options": [],
-    "correct": [],
-    "type": "blank",
-    "answer": "Agreement among network participants on the validity of transactions."
-  },
-  {
     "question": "What is a smart contract? Give a brief definition (max. one phrase).",
     "options": [],
     "correct": [],
